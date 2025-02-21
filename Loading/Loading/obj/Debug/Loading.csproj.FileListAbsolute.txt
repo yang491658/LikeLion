@@ -1,0 +1,7 @@
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\LikeLion\Loading\Loading\bin\Debug\Loading.exe.config
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\LikeLion\Loading\Loading\bin\Debug\Loading.exe
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\LikeLion\Loading\Loading\bin\Debug\Loading.pdb
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\LikeLion\Loading\Loading\obj\Debug\Loading.csproj.AssemblyReference.cache
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\LikeLion\Loading\Loading\obj\Debug\Loading.csproj.CoreCompileInputs.cache
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\LikeLion\Loading\Loading\obj\Debug\Loading.exe
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\LikeLion\Loading\Loading\obj\Debug\Loading.pdb
