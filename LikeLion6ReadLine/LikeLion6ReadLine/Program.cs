@@ -24,7 +24,7 @@ namespace LikeLion6ReadLine
             //Console.WriteLine("내년에는 {0}살이 되겠군요!", age + 1);
 
             // 중간과제
-            Console.WriteLine("아래의 값을 입력하세요.");
+            Console.WriteLine("아래의 값들을 입력하세요.");
             Console.Write("루인 스킬 피해 : ");
             float stat1 = float.Parse(Console.ReadLine());
             Console.Write("카드 게이지 획득량 : ");
