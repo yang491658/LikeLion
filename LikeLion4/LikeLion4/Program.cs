@@ -13,17 +13,16 @@ namespace LikeLion4
             //// 변수 선언 후 값 저장
             //string greeting; // 문자열 변수를 선언
             //greeting = "Hello, World!"; // 변수에 값을 저장
-
             //// 변수의 값을 사용
             //Console.WriteLine(greeting); // 출력: Hello, World!
 
             //// 변수 선언과 동시에 초기화하기
-            //int score = 100;                 // 정수형 변수 선언과 동시에 100으로 초기화
-            //double temperature = 36.5;  // 실수형 변수 선언과 초기화
-            //string city = "Seoul";           // 문자열 변수 선언과 초기화
-            //Console.WriteLine(score);            // 출력: 100
-            //Console.WriteLine(temperature);  // 출력: 36.5
-            //Console.WriteLine(city);             // 출력: Seoul
+            //int score = 100; // 정수형 변수 선언과 동시에 100으로 초기화
+            //double temperature = 36.5; // 실수형 변수 선언과 초기화
+            //string city = "Seoul"; // 문자열 변수 선언과 초기화
+            //Console.WriteLine(score); // 출력: 100
+            //Console.WriteLine(temperature); // 출력: 36.5
+            //Console.WriteLine(city); // 출력: Seoul
 
             //// 같은 데이터 타입의 변수를 쉼표로 구분해 한 번에 선언
             //int x = 10, y = 20, z = 30; // 정수형 변수 x, y, z를 선언하고 각각 초기화
@@ -32,8 +31,8 @@ namespace LikeLion4
             //Console.WriteLine(z);
 
             //// 상수 : 값을 변경할 수 없는 변수
-            //const double Pi = 3.14159;  // 상수 Pi 선언 및 초기화
-            //const int MaxScore = 100;   // 정수형 상수 선언
+            //const double Pi = 3.14159; // 상수 Pi 선언 및 초기화
+            //const int MaxScore = 100; // 정수형 상수 선언
             //Console.WriteLine("Pi : " + Pi);
             //Console.WriteLine("Max Score : " + MaxScore);
 
