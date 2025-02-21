@@ -1,0 +1,7 @@
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\LikeLion\LikeLion3\LikeLion3\bin\Debug\LikeLion3.exe.config
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\LikeLion\LikeLion3\LikeLion3\bin\Debug\LikeLion3.exe
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\LikeLion\LikeLion3\LikeLion3\bin\Debug\LikeLion3.pdb
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\LikeLion\LikeLion3\LikeLion3\obj\Debug\LikeLion3.csproj.AssemblyReference.cache
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\LikeLion\LikeLion3\LikeLion3\obj\Debug\LikeLion3.csproj.CoreCompileInputs.cache
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\LikeLion\LikeLion3\LikeLion3\obj\Debug\LikeLion3.exe
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\LikeLion\LikeLion3\LikeLion3\obj\Debug\LikeLion3.pdb
