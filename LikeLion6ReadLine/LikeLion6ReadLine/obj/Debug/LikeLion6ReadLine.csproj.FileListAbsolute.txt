@@ -1,0 +1,7 @@
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\LikeLion\LikeLion6ReadLine\LikeLion6ReadLine\bin\Debug\LikeLion6ReadLine.exe.config
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\LikeLion\LikeLion6ReadLine\LikeLion6ReadLine\bin\Debug\LikeLion6ReadLine.exe
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\LikeLion\LikeLion6ReadLine\LikeLion6ReadLine\bin\Debug\LikeLion6ReadLine.pdb
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\LikeLion\LikeLion6ReadLine\LikeLion6ReadLine\obj\Debug\LikeLion6ReadLine.csproj.AssemblyReference.cache
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\LikeLion\LikeLion6ReadLine\LikeLion6ReadLine\obj\Debug\LikeLion6ReadLine.csproj.CoreCompileInputs.cache
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\LikeLion\LikeLion6ReadLine\LikeLion6ReadLine\obj\Debug\LikeLion6ReadLine.exe
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\LikeLion\LikeLion6ReadLine\LikeLion6ReadLine\obj\Debug\LikeLion6ReadLine.pdb
