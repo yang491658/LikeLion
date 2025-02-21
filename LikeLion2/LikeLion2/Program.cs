@@ -16,7 +16,7 @@ namespace LikeLion2
 
             Console.WriteLine(age); // 변수에 저장된 값을 출력
 
-            // Ctrl + s
+            // 저장 : Ctrl + s
         }
     }
 }

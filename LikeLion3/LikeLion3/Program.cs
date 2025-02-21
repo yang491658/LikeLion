@@ -23,11 +23,11 @@ namespace LikeLion3
             // 캐릭터   
             // hp : 100
             // att : 56.7
-            // 캐릭터이름 : ??
+            // 캐릭터이름 : 홍길동
             // 등급 : S
             int hp = 100;
             double att = 56.7;
-            string name2 = "???";
+            string name2 = "홍길동";
             char grade = 'S';
             Console.WriteLine("캐릭터");
             Console.WriteLine("체력 : " + hp);
