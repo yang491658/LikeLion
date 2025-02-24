@@ -36,7 +36,7 @@ namespace LikeLion4
             //Console.WriteLine("Pi : " + Pi);
             //Console.WriteLine("Max Score : " + MaxScore);
 
-            // 중간과제
+            // 중간 과제
             int att = 16755, maxHP = 78103, stat1 = 36, stat2 = 1017, stat3 = 41, stat4 = 611, stat5 = 22, stat6 = 30;
             Console.WriteLine("기본 특성");
             Console.WriteLine("공격력 : " + att);

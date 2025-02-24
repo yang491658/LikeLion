@@ -10,7 +10,7 @@ namespace LikeLion2
     {
         static void Main(string[] args)
         {
-            // 변수선언
+            // 변수 선언
             int age; // 정수형 변수
             age = 25; // 변수에 값 저장
 
