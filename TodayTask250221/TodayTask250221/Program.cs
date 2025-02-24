@@ -5,12 +5,13 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace TodayTask1
+namespace TodayTask250221
 {
     class Program
     {
         static void Main(string[] args)
         {
+            // 일일 과제 250221-1 텍스트 노벨
             const int loading = 300;
             const int delay = 1000;
 
