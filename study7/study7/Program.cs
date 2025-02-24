@@ -112,23 +112,38 @@ namespace LikeLion7
             //a %= 5; // a = a % 5
             //Console.WriteLine(a); // 출력 : 10 % 5 = 0
 
-            // 중간 과제 1
-            Console.Write("국어 점수를 입력하세요 : ");
-            int kor = int.Parse(Console.ReadLine());
-            Console.Write("영어 점수를 입력하세요 : ");
-            int eng = int.Parse(Console.ReadLine());
-            Console.Write("수학 점수를 입력하세요 : ");
-            int math = int.Parse(Console.ReadLine());
-            int sum = kor + eng + math;
-            float average = (float)sum / 3;
-            Console.WriteLine($"\n총점 : {sum}, 평균 : {average:F2}");
+            //// 중간 과제 1
+            //Console.Write("국어 점수를 입력하세요 : ");
+            //int kor = int.Parse(Console.ReadLine());
+            //Console.Write("영어 점수를 입력하세요 : ");
+            //int eng = int.Parse(Console.ReadLine());
+            //Console.Write("수학 점수를 입력하세요 : ");
+            //int math = int.Parse(Console.ReadLine());
+            //int sum = kor + eng + math;
+            //float average = (float)sum / 3;
+            //Console.WriteLine($"\n총점 : {sum}, 평균 : {average:F2}");
 
-            Console.WriteLine();
+            //Console.WriteLine();
 
-            // 중간 과제 2
-            Console.Write("정수를 입력하세요 : ");
-            int number = int.Parse(Console.ReadLine());
-            Console.WriteLine($"\n원래 값 : {number}, 비트 반전 : {~number}");
+            //// 중간 과제 2
+            //Console.Write("정수를 입력하세요 : ");
+            //int number = int.Parse(Console.ReadLine());
+            //Console.WriteLine($"\n원래 값 : {number}, 비트 반전 : {~number}");
+
+            // 증감 연산자
+            int b = 3;
+            ++b; // 전위 증가 ++b = b + 1
+            Console.WriteLine(b); // 출력 : 4 + 1 = 5
+            b++; // 후위 증가 b++ = b + 1
+            Console.WriteLine(b); // 출력 : 4 + 1 = 5
+            --b; // 전위 감소 --b = b - 1
+            Console.WriteLine(b); // 출력 : 5 - 1 = 4
+            b--; // 전위 감소 b-- = b - 1
+            Console.WriteLine(b); // 출력 : 4 - 1 = 3
+            // 전위와 후위의 차이
+            b = 3;
+            Console.WriteLine(++b); // 출력 4 ~ 전위 : 출력 전 연산(3+1)
+            Console.WriteLine(b++); // 출력 4 ~ 후위 : 출력 후 연산(4+1)
         }
     }
 }
