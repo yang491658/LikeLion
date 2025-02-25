@@ -1,0 +1,7 @@
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\콘솔 좌표 배우기\콘솔 좌표 배우기\bin\Debug\콘솔 좌표 배우기.exe.config
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\콘솔 좌표 배우기\콘솔 좌표 배우기\bin\Debug\콘솔 좌표 배우기.exe
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\콘솔 좌표 배우기\콘솔 좌표 배우기\bin\Debug\콘솔 좌표 배우기.pdb
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\콘솔 좌표 배우기\콘솔 좌표 배우기\obj\Debug\콘솔 좌표 배우기.csproj.AssemblyReference.cache
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\콘솔 좌표 배우기\콘솔 좌표 배우기\obj\Debug\콘솔 좌표 배우기.csproj.CoreCompileInputs.cache
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\콘솔 좌표 배우기\콘솔 좌표 배우기\obj\Debug\콘솔 좌표 배우기.exe
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\콘솔 좌표 배우기\콘솔 좌표 배우기\obj\Debug\콘솔 좌표 배우기.pdb
