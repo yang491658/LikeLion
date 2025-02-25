@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Project250225
+namespace 대장장이_키우기
 {
     class Program
     {
