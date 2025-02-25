@@ -90,7 +90,7 @@ namespace TodayTask250225
                     Console.WriteLine();
                 }
 
-                Console.Write("방향키로 이동하여 점수를 획득하세요! (x를 누르면 종료합니다.)");
+                Console.Write("방향키로 이동하여 점수를 획득하세요! (x를 입력하면 종료합니다.)");
                 ConsoleKey key = Console.ReadKey(true).Key;
 
                 if (key == ConsoleKey.X)
