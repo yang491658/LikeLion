@@ -16,24 +16,20 @@ namespace TodayTask250224
             // 3개의 정수 입력 / if문 사용하여 가장 큰 정수 결정 / 결과를 "최대값 : x"의 형식으로 출력
             Console.WriteLine("일일 과제 25024-1");
             Console.Write("첫 번째 정수를 입력하세요. : ");
-            int num1 = int.Parse(Console.ReadLine());
+            int a = int.Parse(Console.ReadLine());
             Console.Write("두 번째 정수를 입력하세요. : ");
-            int num2 = int.Parse(Console.ReadLine());
+            int b = int.Parse(Console.ReadLine());
             Console.Write("세 번째 정수를 입력하세요. : ");
-            int num3 = int.Parse(Console.ReadLine());
+            int c = int.Parse(Console.ReadLine());
 
-            int max = default;
-            if (num1 >= num2 && num1 > num3)
+            int max = a;
+            if (b > max)
             {
-                max = num1;
+                max = b;
             }
-            else if (num2 >= num1 && num2 > num3)
+            if (c > max)
             {
-                max = num2;
-            }
-            else if (num3 >= num1 && num3 > num2)
-            {
-                max = num3;
+                max = c;
             }
             Console.WriteLine("\n최대값 : " + max);
 
@@ -84,29 +80,29 @@ namespace TodayTask250224
             // 2개의 숫자와 연산자 기호 입력 / if문 사용하여 연산자를 확인 수행 / 나눗셈의 경우 0으로 나누는 상황에는 에러 메시지
             Console.WriteLine("일일 과제 25024-1");
             Console.Write("첫 번째 숫자를 입력하세요. : ");
-            int number1 = int.Parse(Console.ReadLine());
+            double num1 = int.Parse(Console.ReadLine());
             Console.Write("두 번째 숫자를 입력하세요. : ");
-            int number2 = int.Parse(Console.ReadLine());
+            double num2 = int.Parse(Console.ReadLine());
             Console.Write("계산하고자 하는 연산자를 입력하세요. + , - , * , /  : ");
-            string calc = Console.ReadLine();
+            string op = Console.ReadLine();
 
             double result = default;
             bool isErr = false;
-            if (calc == "+")
+            if (op == "+")
             {
-                result = number1 + number2;
+                result = num1 + num2;
             }
-            else if (calc == "-")
+            else if (op == "-")
             {
-                result = number1 - number2;
+                result = num1 - num2;
             }
-            else if (calc == "*")
+            else if (op == "*")
             {
-                result = number1 * number2;
+                result = num1 * num2;
             }
-            else if (calc == "/" && number2 != 0)
+            else if (op == "/" && num2 != 0)
             {
-                result = (float)number1 / number2;
+                result = num1 / num2;
             }
             else
             {
@@ -115,7 +111,7 @@ namespace TodayTask250224
 
             if (!isErr)
             {
-                Console.WriteLine($"\n연산 : {number1} {calc} {number2} \n결과 : {result:F3}");
+                Console.WriteLine($"\n연산 : {num1} {op} {num2} \n결과 : {result:F3}");
             }
             else
             {
