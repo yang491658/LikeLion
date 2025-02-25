@@ -1,0 +1,7 @@
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\모험가 키우기\모험가 키우기\bin\Debug\모험가 키우기.exe.config
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\모험가 키우기\모험가 키우기\bin\Debug\모험가 키우기.exe
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\모험가 키우기\모험가 키우기\bin\Debug\모험가 키우기.pdb
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\모험가 키우기\모험가 키우기\obj\Debug\모험가 키우기.csproj.AssemblyReference.cache
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\모험가 키우기\모험가 키우기\obj\Debug\모험가 키우기.csproj.CoreCompileInputs.cache
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\모험가 키우기\모험가 키우기\obj\Debug\모험가 키우기.exe
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\모험가 키우기\모험가 키우기\obj\Debug\모험가 키우기.pdb
