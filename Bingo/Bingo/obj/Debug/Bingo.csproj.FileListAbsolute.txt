@@ -1,0 +1,7 @@
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\Bingo\Bingo\bin\Debug\Bingo.exe.config
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\Bingo\Bingo\bin\Debug\Bingo.exe
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\Bingo\Bingo\bin\Debug\Bingo.pdb
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\Bingo\Bingo\obj\Debug\Bingo.csproj.AssemblyReference.cache
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\Bingo\Bingo\obj\Debug\Bingo.csproj.CoreCompileInputs.cache
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\Bingo\Bingo\obj\Debug\Bingo.exe
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\Bingo\Bingo\obj\Debug\Bingo.pdb
