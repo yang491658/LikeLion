@@ -1,0 +1,7 @@
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\TodayTask250226\TodayTask250226\bin\Debug\TodayTask250226.exe.config
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\TodayTask250226\TodayTask250226\bin\Debug\TodayTask250226.exe
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\TodayTask250226\TodayTask250226\bin\Debug\TodayTask250226.pdb
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\TodayTask250226\TodayTask250226\obj\Debug\TodayTask250226.csproj.AssemblyReference.cache
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\TodayTask250226\TodayTask250226\obj\Debug\TodayTask250226.csproj.CoreCompileInputs.cache
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\TodayTask250226\TodayTask250226\obj\Debug\TodayTask250226.exe
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\TodayTask250226\TodayTask250226\obj\Debug\TodayTask250226.pdb
