@@ -1,0 +1,7 @@
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\study18\study18\bin\Debug\study18.exe.config
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\study18\study18\bin\Debug\study18.exe
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\study18\study18\bin\Debug\study18.pdb
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\study18\study18\obj\Debug\study18.csproj.AssemblyReference.cache
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\study18\study18\obj\Debug\study18.csproj.CoreCompileInputs.cache
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\study18\study18\obj\Debug\study18.exe
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\study18\study18\obj\Debug\study18.pdb
