@@ -63,14 +63,15 @@ namespace study12
             Console.WriteLine(value);
 
         }
+        // 하단에 작성해도 상관 없음
 
-        // 8. ref 키워드 (값을 참조하여 수정)
+        // 8. ref 키워드 : 값을 참조하여 수정
         static void Increase(ref int num)
         {
             num += 10;
         }
 
-        // 7. out 키워드 (여러 값을 반환)
+        // 7. out 키워드 : 여러 값을 반환
         static void Divide(int a, int b, out int quotient, out int remainder)
         {
             quotient = a / b;
@@ -93,8 +94,7 @@ namespace study12
             return a * b;
         }
 
-        // 하단에 작성해도 상관 없음
-        // 5. 기본값을 가진 매개변수 (디폴트 매개변수)
+        // 5. 기본값을 가진 매개변수 : 디폴트 매개변수
         static void Greet(string name = "손님")
         {
             Console.WriteLine($"안녕하세요, {name}");
