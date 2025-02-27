@@ -1,0 +1,135 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace TodayTask250227_Inventory
+{
+    struct Inventory
+    {
+        // 최대 아이템 개수 (배열 크기)
+        public int MAX_ITEMS;
+        // 아이템 배열 (이름 저장)
+        public string[] itemNames;
+        public int[] itemCounts;
+
+        public Inventory(int size = 10) // 생성자
+        {
+            MAX_ITEMS = size;
+            itemNames = new string[size];
+            itemCounts = new int[size];
+        }
+
+        // 아이템 추가 함수
+        public void AddItem(string name, int count)
+        {
+            for (int i = 0; i < MAX_ITEMS; i++)
+            {
+                // 이미 있는 아이템의 경우 -> 개수만 증가
+                if (itemNames[i] == name) // 일치하는 아이템 검색
+                {
+                    itemCounts[i] += count;
+                    return;
+                }
+            }
+
+            for (int i = 0; i < MAX_ITEMS; i++)
+            {
+                // 빈 슬롯에 새로운 아이템 추가
+                if (itemNames[i] == null)
+                {
+                    itemNames[i] = name;
+                    itemCounts[i] = count;
+                    return;
+                }
+            }
+            Console.WriteLine("인벤토리가 가득 찼습니다.\n");
+        }
+
+        // 아이템 제거 함수
+        public void RemoveItem(string name, int count)
+        {
+            for (int i = 0; i < MAX_ITEMS; i++)
+            {
+                if (itemNames[i] == name) // 일치하는 아이템 검색
+                {
+                    if (itemCounts[i] >= count) // 개수가 충분하면 차감
+                    {
+                        itemCounts[i] -= count;
+                        if (itemCounts[i] == 0) // 개수가 0이면 삭제
+                        {
+                            itemNames[i] = null;
+                        }
+                        return;
+                    }
+                    else
+                    {
+                        Console.WriteLine("아이템 개수가 부족합니다.\n");
+                        return;
+                    }
+                }
+            }
+            Console.WriteLine("아이템을 찾을 수 없습니다!\n");
+        }
+
+        // 인벤토리 출력 함수
+        public void ShowInventory()
+        {
+            Console.WriteLine("현재 인벤토리 : ");
+            bool isEmpty = true;
+
+            for (int i = 0; i < MAX_ITEMS; i++)
+            {
+                if (itemNames[i] != null)
+                {
+                    Console.WriteLine($"\t{itemNames[i]} x {itemCounts[i]}");
+                    isEmpty = false;
+                }
+            }
+
+            if (isEmpty)
+            {
+                Console.WriteLine("인벤토리가 비어있습니다.\n");
+            }
+            else
+            {
+                Console.WriteLine();
+            }
+        }
+    }
+
+    class Program
+    {
+
+        static void Main(string[] args)
+        {
+            const int size = 10;
+            Inventory inven = new Inventory(size);
+
+            // 테스트 : 아이템 추가
+            inven.AddItem("포션", 5);
+            inven.AddItem("칼", 1);
+            inven.AddItem("포션", 3); // 포션 개수 추가
+            inven.ShowInventory();
+
+            // 아이템 사용
+            Console.WriteLine("포션 2개 사용\n");
+            inven.RemoveItem("포션", 5);
+            inven.ShowInventory();
+
+            // 테스트 : 없는 아이템 제거
+            Console.WriteLine("방패 1개 제거 시도");
+            inven.RemoveItem("방패", 1);
+            inven.ShowInventory();
+
+            // 테스트 : 모든 포션 제거
+            Console.WriteLine("포션 6개 사용 (초과 사용 테스트)");
+            inven.RemoveItem("포션", 6);
+            inven.ShowInventory();
+
+            Console.ReadLine();
+            Console.Clear();
+        }
+    }
+}
