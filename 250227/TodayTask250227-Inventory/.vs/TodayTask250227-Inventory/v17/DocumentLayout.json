@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\TodayTask250227-Inventory\\",
+  "WorkspaceRootPath": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\250227\\TodayTask250227-Inventory\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CDEF107C-D20A-4BAD-AFAD-698A54B879B3}|TodayTask250227-Inventory\\TodayTask250227-Inventory.csproj|c:\\users\\yang4916\\desktop\\y\\unity\\likelion\\todaytask250227-inventory\\todaytask250227-inventory\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CDEF107C-D20A-4BAD-AFAD-698A54B879B3}|TodayTask250227-Inventory\\TodayTask250227-Inventory.csproj|c:\\users\\yang4916\\desktop\\y\\unity\\likelion\\250227\\todaytask250227-inventory\\todaytask250227-inventory\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CDEF107C-D20A-4BAD-AFAD-698A54B879B3}|TodayTask250227-Inventory\\TodayTask250227-Inventory.csproj|solutionrelative:todaytask250227-inventory\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\TodayTask250227-Inventory\\TodayTask250227-Inventory\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\250227\\TodayTask250227-Inventory\\TodayTask250227-Inventory\\Program.cs",
               "RelativeDocumentMoniker": "TodayTask250227-Inventory\\Program.cs",
-              "ToolTip": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\TodayTask250227-Inventory\\TodayTask250227-Inventory\\Program.cs",
+              "ToolTip": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\250227\\TodayTask250227-Inventory\\TodayTask250227-Inventory\\Program.cs",
               "RelativeToolTip": "TodayTask250227-Inventory\\Program.cs",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAAAIcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAAIcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-27T07:50:42.677Z",
               "EditorCaption": ""
