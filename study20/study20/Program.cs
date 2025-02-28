@@ -11,6 +11,7 @@ namespace study20
     {
         public string Name;
         public int Age;
+
         public void ShowInfo()
         {
             Console.WriteLine($"이름 : {Name}, 나이 : {Age}");
@@ -40,16 +41,19 @@ namespace study20
     {
         public string Name;
         public int Mineral;
+
         public Marin()
         {
             Name = "마린";
             Mineral = 50;
         }
+
         public Marin(string name, int mineral)
         {
             Name = name;
             Mineral = mineral;
         }
+
         public void ShowInfo()
         {
             Console.WriteLine($"이름 : {Name} , 미네랄 : {Mineral}");
@@ -60,16 +64,19 @@ namespace study20
     {
         public string Name;
         public int Mineral;
+
         public SCV()
         {
             Name = "SCV";
             Mineral = 50;
         }
+
         public SCV(string name, int mineral)
         {
             Name = name;
             Mineral = mineral;
         }
+
         public void ShowInfo()
         {
             Console.WriteLine($"이름 : {Name} , 미네랄 : {Mineral}");
@@ -80,17 +87,20 @@ namespace study20
     {
         public string Name;
         public int Mineral;
+
         public Barrack()
         {
             Name = "배럭";
             Mineral = 150;
         }
+
         public Barrack(string Name, int Mineral)
         {
             // this 키워드 : 자기 자신을 가르킴
             this.Name = Name;
             this.Mineral = Mineral;
         }
+
         public void ShowInfo()
         {
             Console.WriteLine($"이름 : {Name} , 미네랄 : {Mineral}");
@@ -100,10 +110,12 @@ namespace study20
     class Mineral
     {
         public int MineralCount;
+
         public Mineral()
         {
             MineralCount = 1500;
         }
+
         public void ShowInfo()
         {
             Console.WriteLine($"현재 미네랄 수 : {MineralCount}");
