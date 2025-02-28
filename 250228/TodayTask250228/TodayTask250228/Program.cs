@@ -12,16 +12,16 @@ namespace TodayTask250228
     public class Game
     {
         // 전역 변수
-        public static int w = 80; // 가로
-        public static int h = 25; // 세로
-        public static int hm = 6; // 하단 여백
-        public static int frame = 15; // 프레임
+        public static int w = 100; // 가로
+        public static int h = 20; // 세로
+        public static int marginH = 5; // 하단 여백
+        public static int frame = 20; // 프레임
         public Player player = new Player();
         public Item item = new Item();
 
         // 제목 변수
-        private static string title1 = "SHOOTING";
-        private static string title2 = "GAME";
+        private static string title1 = "SHOOTING  ";
+        private static string title2 = " OF LEGEND";
         private static string[] logo =
         {
             " _____",
@@ -44,7 +44,12 @@ namespace TodayTask250228
             while (!Console.KeyAvailable)
             {
                 Console.SetCursorPosition((w - 37) / 2, h / 2);
-                Console.WriteLine("아무 키나 누르시면 게임이 시작됩니다.");
+                string text = "아무 키나 누르시면 게임이 시작됩니다.";
+                for (int i = 0; i < text.Length; i++)
+                {
+                    Console.Write(text[i]);
+                    Thread.Sleep(200 / frame);
+                }
             }
         }
 
@@ -53,10 +58,11 @@ namespace TodayTask250228
         {
             PrintSide();
             player.Draw();
+            player.ItemList();
             player.InputKey();
-            if (item.isExist)
+            if (item.isMade)
             {
-                item.Draw();
+                item.Create();
                 item.Move();
             }
             player.Get(item);
@@ -66,20 +72,24 @@ namespace TodayTask250228
         private static void PrintTile(string title, int initY)
         {
             // 변수
-            int box = 8; // 박스 크기
-            int marginX = w / 10; // 좌우 여백
+            int box = 9; // 박스 크기
+            int marginX = 5; // 좌우 여백
             int count = title.Length; // 제목 글자 수
             int invX = (w - 2 - 2 * marginX - count * box) / (count - 1); // 제목 간격
 
             // 각 제목 글자 출력
             for (int i = 0; i < title.Length; i++)
             {
-                // 제목 박스
+                // 빈칸은 패스
+                if (title[i] == ' ') continue;
+
                 for (int j = 0; j < logo.Length; j++)
+                // 제목 박스
                 {
+
                     Console.SetCursorPosition(1 + marginX + i * (invX + box), initY + j);
                     Console.WriteLine(logo[j]);
-                    Thread.Sleep(300 / frame);
+                    Thread.Sleep(200 / frame);
                 }
 
                 // 제목 글자
@@ -102,6 +112,7 @@ namespace TodayTask250228
                     else if (x == w - 1 && y == h - 1) Console.Write("┛");
                     else if (x == 0 || x == w - 1) Console.Write("┃");
                     else if (y == 0 || y == h - 1) Console.Write("━");
+                    //else Console.Write("@");
                 }
                 Console.WriteLine();
             }
@@ -120,6 +131,7 @@ namespace TodayTask250228
 
         public List<Bullet> bullets { get; } = new List<Bullet>();
         public int shootTime = Environment.TickCount;
+        public int shootDelay = 1000;
 
         public List<Item> itemList { get; set; } = new List<Item>();
 
@@ -148,18 +160,24 @@ namespace TodayTask250228
                 switch (keyInfo.Key)
                 {
                     // 방향키 -> 플레이어 이동
-                    case ConsoleKey.LeftArrow: x = Math.Max(1, x - 1); break;
-                    case ConsoleKey.RightArrow: x = Math.Min(maxX, x + 1); break;
+                    case ConsoleKey.LeftArrow: x = Math.Max(1, x - 2); break;
+                    case ConsoleKey.RightArrow: x = Math.Min(maxX, x + 2); break;
                     case ConsoleKey.UpArrow: y = Math.Max(1, y - 1); break;
                     case ConsoleKey.DownArrow: y = Math.Min(maxY, y + 1); break;
                     // 스페이스바 -> 총알 발사 (0.5초 당 1번)
                     case ConsoleKey.Spacebar:
-                        if (shootTime + 500 <= Environment.TickCount)
+                        if (shootTime + shootDelay <= Environment.TickCount)
                         {
                             bullets.Add(new Bullet { x = x + 5, y = y, shoot = true });
                             shootTime = Environment.TickCount;
                         }
                         break;
+                    // ESC키 -> 종료
+                    case ConsoleKey.Escape:
+                        Console.SetCursorPosition(0, Game.h);
+                        Environment.Exit(0);
+                        return;
+
                 }
             }
         }
@@ -199,6 +217,23 @@ namespace TodayTask250228
             }
         }
 
+        // 아이템 목록
+        public void ItemList()
+        {
+            int i = 0;
+            foreach (var item in itemList)
+            {
+                // 아이템 목록 출력
+                Console.SetCursorPosition(i, Game.h);
+                Console.Write($"┏━━━━━┓");
+                Console.SetCursorPosition(i, Game.h + 1);
+                Console.Write($"┃{item.name}{item.count}┃");
+                Console.SetCursorPosition(i, Game.h + 2);
+                Console.Write($"┗━ {item.key} ━┛");
+                i += 8;
+            }
+        }
+
         // 적 처치
         public void Kill(Enemy enemy, Item item)
         {
@@ -213,21 +248,23 @@ namespace TodayTask250228
                     Random rand = new Random();
 
                     // 아이템 랜덤 생성
-                    if (!item.isExist)
+                    if (!item.isMade)
                     {
-                        item.isExist = true;
+                        item.isMade = true;
+
                         // 가장 상단 -> 아래로 이동
                         if (enemy.y == 1)
-                            item.moveUp = false;
+                            item.dY = false;
                         // 가장 하단 -> 위로 이동
                         else if (enemy.y == maxY)
-                            item.moveUp = true;
+                            item.dY = true;
                         else
-                            item.moveUp = rand.Next(2) == 0;
+                            item.dY = rand.Next(2) == 0;
 
                         // 아이템 좌표 = 죽은 적 좌표
                         item.x = enemy.x;
                         item.y = enemy.y;
+                        item.madeTime = Environment.TickCount;
                     }
 
                     // 새로운 적 좌표
@@ -246,11 +283,15 @@ namespace TodayTask250228
         // 아이템 획득
         public void Get(Item item)
         {
+            // 아이템 좌표 = 플레이어 좌표 -> 아이템 획득
             if (item.y == y
                 && item.x >= x - 2
                 && item.x <= x + 5)
             {
-                item.isExist = false;
+                item.x = 0;
+                item.y = 0;
+                item.isMade = false;
+                itemList.Add(item);
             }
         }
     }
@@ -306,31 +347,58 @@ namespace TodayTask250228
     public class Item
     {
         // 아이템 변수
-        public string shape;
+        public string name;
+        public int count;
+        public char key;
         public int x { get; set; }
         public int y { get; set; }
-        public bool moveLeft { get; set; } = true;
-        public bool moveUp { get; set; } = true;
-        public bool isExist { get; set; } = false;
+
+        public bool isMade { get; set; } = false;
+        public int madeTime = Environment.TickCount;
+
+        public bool dX { get; set; } = true;
+        public bool dY { get; set; } = true;
+        public int dChange { get; set; }
 
         // 아이템 그리기
-        public void Draw()
+        public void Create()
         {
             Console.SetCursorPosition(x, y);
-            shape = "폭탄";
-            Console.Write(shape);
+            name = "폭탄";
+            key = 'Q';
+            Console.Write(name);
         }
 
         // 아이템 이동
         public void Move()
         {
-            // 아이템 상하 이동 -> 가장 상단/하단 도달 시, 방향 전환
-            if (moveUp) y--; else y++;
-            if (y <= 1 || y >= Game.h - 2) moveUp = !moveUp;
+            if (madeTime + 300 < Environment.TickCount)
+            {
+                madeTime = Environment.TickCount;
 
-            // 아이템 좌우 이동 -> 가장 좌측/우측 도달 시, 방향 전환
-            if (moveLeft) x -= 2; else x += 2;
-            if (x <= 2 || x >= Game.w - 5) moveLeft = !moveLeft;
+                // 아이템 좌우 이동 -> 가장 좌측/우측 도달 시, 방향 전환
+                if (dX) x -= 3; else x += 3;
+                if (x <= 2 || x >= Game.w - 5)
+                {
+                    dX = !dX;
+                    dChange++;
+                }
+
+                // 아이템 상하 이동 -> 가장 상단/하단 도달 시, 방향 전환
+                if (dY) y--; else y++;
+                if (y <= 1 || y >= Game.h - 2)
+                {
+                    dY = !dY;
+                    dChange++;
+                }
+
+                if (madeTime + 5 * 1000 <= Environment.TickCount || dChange > 5)
+                {
+                    dX = true;
+                    dChange = 0;
+                    isMade = false;
+                }
+            }
         }
     }
 
@@ -340,8 +408,8 @@ namespace TodayTask250228
         {
             // 콘솔 설정
             Console.CursorVisible = false;
-            Console.SetWindowSize(Game.w, Game.h + Game.hm);
-            Console.SetBufferSize(Game.w, Game.h + Game.hm);
+            Console.SetWindowSize(Game.w, Game.h + Game.marginH);
+            Console.SetBufferSize(Game.w, Game.h + Game.marginH);
             int dwTime = Environment.TickCount; // 1ms
 
             Game.Start();
