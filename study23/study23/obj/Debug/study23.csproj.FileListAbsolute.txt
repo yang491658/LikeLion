@@ -1,0 +1,7 @@
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\study23\study23\bin\Debug\study23.exe.config
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\study23\study23\bin\Debug\study23.exe
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\study23\study23\bin\Debug\study23.pdb
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\study23\study23\obj\Debug\study23.csproj.AssemblyReference.cache
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\study23\study23\obj\Debug\study23.csproj.CoreCompileInputs.cache
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\study23\study23\obj\Debug\study23.exe
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\study23\study23\obj\Debug\study23.pdb
