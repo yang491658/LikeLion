@@ -268,7 +268,7 @@ namespace TodayTask250228
                     case 113:
                         if (bombCount > 0)
                         {
-                            // 폭타 수 감소
+                            // 폭탄 수 감소
                             bombCount--;
                             // 폭탄 생성
                             bulletList.Add(new Bullet { x = x + 2, y = y - 1, shoot = true, directionX = 0 });
@@ -383,6 +383,8 @@ namespace TodayTask250228
                             item.x = enemy.x + 1;
                             item.y = enemy.y;
                             item.createtime = Environment.TickCount;
+                            item.directionX = rand.Next(2) == 0;
+                            item.directionY = true;
                         }
 
                         // 새로운 적 생성
@@ -392,7 +394,6 @@ namespace TodayTask250228
                         Console.ForegroundColor = ConsoleColor.Yellow;
                         Console.Write("펑");
                         Console.ResetColor();
-                        Thread.Sleep(1000 / Game.frame);
 
                         // 점수 및 킬 수 증가
                         Game.score += 100;
@@ -632,7 +633,7 @@ namespace TodayTask250228
                 for (int i = 0; i < 3; i++) itemList.Add("강화");
             if (player.bulletCount < 5)
                 for (int i = 0; i < 5; i++) itemList.Add("추가");
-            if (player.maxBullet < 50)
+            if (player.maxBullet < 100)
                 for (int i = 0; i < 10; i++) itemList.Add("탄창");
             if (player.bombCount < 5)
                 for (int i = 0; i < 10; i++) itemList.Add("폭탄");
