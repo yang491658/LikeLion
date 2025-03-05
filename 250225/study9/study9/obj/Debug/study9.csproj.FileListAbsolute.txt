@@ -5,3 +5,10 @@ C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\study9\study9\obj\Debug\study9.csproj
 C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\study9\study9\obj\Debug\study9.csproj.CoreCompileInputs.cache
 C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\study9\study9\obj\Debug\study9.exe
 C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\study9\study9\obj\Debug\study9.pdb
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\250225\study9\study9\bin\Debug\study9.exe.config
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\250225\study9\study9\bin\Debug\study9.exe
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\250225\study9\study9\bin\Debug\study9.pdb
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\250225\study9\study9\obj\Debug\study9.csproj.AssemblyReference.cache
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\250225\study9\study9\obj\Debug\study9.csproj.CoreCompileInputs.cache
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\250225\study9\study9\obj\Debug\study9.exe
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\250225\study9\study9\obj\Debug\study9.pdb

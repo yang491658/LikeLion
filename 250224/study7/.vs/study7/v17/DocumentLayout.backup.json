@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\study7\\",
+  "WorkspaceRootPath": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\250224\\study7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{629C6467-A2FB-4BE8-B0A8-A806CBC7824E}|study7\\study7.csproj|c:\\users\\yang4916\\desktop\\y\\unity\\likelion\\study7\\study7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{629C6467-A2FB-4BE8-B0A8-A806CBC7824E}|study7\\study7.csproj|c:\\users\\yang4916\\desktop\\y\\unity\\likelion\\250224\\study7\\study7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{629C6467-A2FB-4BE8-B0A8-A806CBC7824E}|study7\\study7.csproj|solutionrelative:study7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,24 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\study7\\study7\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\250224\\study7\\study7\\Program.cs",
               "RelativeDocumentMoniker": "study7\\Program.cs",
-              "ToolTip": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\study7\\study7\\Program.cs",
+              "ToolTip": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\250224\\study7\\study7\\Program.cs",
               "RelativeToolTip": "study7\\Program.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAAwIAAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAAAJUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T00:51:38.664Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

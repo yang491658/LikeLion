@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\TodayTask250224\\",
+  "WorkspaceRootPath": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\250224\\TodayTask250224\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E8AC1754-FF55-458F-9F95-5FC3D01AF726}|TodayTask250224\\TodayTask250224.csproj|c:\\users\\yang4916\\desktop\\y\\unity\\likelion\\todaytask250224\\todaytask250224\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E8AC1754-FF55-458F-9F95-5FC3D01AF726}|TodayTask250224\\TodayTask250224.csproj|c:\\users\\yang4916\\desktop\\y\\unity\\likelion\\250224\\todaytask250224\\todaytask250224\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8AC1754-FF55-458F-9F95-5FC3D01AF726}|TodayTask250224\\TodayTask250224.csproj|solutionrelative:todaytask250224\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,17 +14,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\TodayTask250224\\TodayTask250224\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\250224\\TodayTask250224\\TodayTask250224\\Program.cs",
               "RelativeDocumentMoniker": "TodayTask250224\\Program.cs",
-              "ToolTip": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\TodayTask250224\\TodayTask250224\\Program.cs",
+              "ToolTip": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\250224\\TodayTask250224\\TodayTask250224\\Program.cs",
               "RelativeToolTip": "TodayTask250224\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwBQAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T07:11:02.294Z",
               "EditorCaption": ""

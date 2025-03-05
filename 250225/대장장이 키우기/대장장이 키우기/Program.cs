@@ -97,7 +97,6 @@ namespace 대장장이_키우기
                     Console.WriteLine("나갑니다.");
                     Environment.Exit(0);
                 }
-
             }
         }
     }
