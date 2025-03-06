@@ -17,7 +17,7 @@ namespace study40
 
     class Child : Parent
     {
-        public Child() : base("성공") // 부모 생성자 호출 : 실행 1
+        public Child() : base("성공") // 실행 1. 부모 생성자 호출
         {
             Console.WriteLine("자식 생성자 호출"); // 실행 3
         }
@@ -27,7 +27,7 @@ namespace study40
     {
         static void Main(string[] args)
         {
-            Child child = new Child();
+            Child child = new Child(); // 실행 0. 객체 생성 시작
         }
     }
 }
