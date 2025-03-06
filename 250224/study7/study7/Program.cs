@@ -63,7 +63,7 @@ namespace LikeLion7
 
             //// 단항 연산자
             //int number = 5;
-            //Console.WriteLine(+number); // 양수 출력 : 5 ~ 더하기x
+            //Console.WriteLine(+number); // 양수 출력 : +5 ~ 더하기x
             //Console.WriteLine(-number); // 음수 출력 : -5 ~ 빼기x
             //bool flag = true;
             //Console.WriteLine(!flag); // 논리 부정 : False
@@ -90,7 +90,7 @@ namespace LikeLion7
             //// 산술 연산자
             //int a = 10, b = 3;
             //Console.WriteLine(a + b); // 더하기 -> 결과 : 13
-            //Console.WriteLine(a - b); // 빼기 -> 결과 : 7
+            //Console.WriteLine(a - b); // 빼기   -> 결과 : 7
             //Console.WriteLine(a * b); // 곱하기 -> 결과 : 30
             //Console.WriteLine(a / b); // 나누기 -> 결과 : 3 (정수형의 경우 몫만 출력)
             //Console.WriteLine(a % b); // 나머지 -> 결과 : 1

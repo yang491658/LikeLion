@@ -14,36 +14,36 @@ namespace study8
             //// 두 값을 비교하여 관계를 평가
             //// == 같다 , != 같지않다 , < , > , <= , >= 
             //int x = 5, y = 10;
-            //Console.WriteLine(x == y); // False
-            //Console.WriteLine(x != y); // True
-            //Console.WriteLine(x < y); // True
-            //Console.WriteLine(x > y); // False
-            //Console.WriteLine(x >= y); // False
-            //Console.WriteLine(x <= y); // True
+            //Console.WriteLine(x == y);  // 출력 : False
+            //Console.WriteLine(x != y);  // 출력 : True
+            //Console.WriteLine(x < y);   // 출력 : True
+            //Console.WriteLine(x > y);   // 출력 : False
+            //Console.WriteLine(x >= y);  // 출력 : False
+            //Console.WriteLine(x <= y);  // 출력 : True
 
             //// 논리 연산자
             //bool a = true, b = false;
             //// AND (논리곱) : 둘 다 True일 경우 True, 그 외 False
             //// 1 && 1 = True , 1 && 0 = False , 0 && 1 = False , 0 && 0 = False ~ 곱하기
-            //Console.WriteLine(a && b); // 출력 : False
+            //Console.WriteLine(a && b);  // 출력 : False
             //// OR (논리합) : 둘 중 하나라도 True일 경우 True, 그 외 False
             //// 1 || 1 = True , 1 || 0 = True , 0 || 1 = True , 0 || 0 = False ~ 더하기
-            //Console.WriteLine(a || b); // 출력 : True
+            //Console.WriteLine(a || b);  // 출력 : True
             //// NOT (부정)
-            //Console.WriteLine(!a); // False
+            //Console.WriteLine(!a);      // 출력 : False
 
             //// 비트 연산자
             //int x = 5; // 0101
             //int y = 3; // 0011
-            //Console.WriteLine(x & y); // AND : 1 (0001)
-            //Console.WriteLine(x | y); // OR : 7 (0111)
-            //Console.WriteLine(x ^ y); // XOR : 6 (0110) : 둘의 값이 다를 경우 True, 같은 경우 False
-            //Console.WriteLine(~x); // NOT : -6 (1111 1010)
+            //Console.WriteLine(x & y);   // AND :  1 (0001)
+            //Console.WriteLine(x | y);   // OR  :  7 (0111)
+            //Console.WriteLine(x ^ y);   // XOR :  6 (0110) : 둘의 값이 다를 경우 True, 같은 경우 False
+            //Console.WriteLine(~x);      // NOT : -6 (1111 1010)
 
             //// 시프트 연산자 : 비트의 좌우 이동
             //int value = 4; // 0100
-            //Console.WriteLine(value << 1); // 왼쪽 이동 : 8 (1000) ~ 곱하기 2
-            //Console.WriteLine(value >> 1); // 왼쪽 이동 : 2 (0010) ~ 나누기 2 (나머지 버림)
+            //Console.WriteLine(value << 1); // 왼쪽 이동 -> 출력 : 8 (1000) ~ 곱하기 2
+            //Console.WriteLine(value >> 1); // 왼쪽 이동 -> 출력 : 2 (0010) ~ 나누기 2 (나머지 버림)
 
             //// 기타 연산자
             //int a = 10, b = 20;
@@ -64,13 +64,9 @@ namespace study8
             //// 제어문 - 조건문
             //int score = 85;
             //if (score >= 90)
-            //{
             //    Console.WriteLine("A 학점");
-            //}
             //else
-            //{
             //    Console.WriteLine("90점 미만");
-            //}
             //// 예시
             //string GameID = "가나다라";
             //if (GameID == "가나다라")
