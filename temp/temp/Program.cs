@@ -11,9 +11,13 @@ namespace temp
         static void Main(string[] args)
         {
             Random rand = new Random();
-            for (int i = 0; i < 100; i++)
+            int a;
+            while(true)
             {
-                Console.WriteLine(rand.Next(1,4));
+                a = rand.Next(60,111);
+                Console.WriteLine(a);
+
+                if (a == 111) break;
             }
         }
     }
