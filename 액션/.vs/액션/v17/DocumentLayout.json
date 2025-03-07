@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\\uC561\uC158\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A83B0D6B-92CC-4246-A071-2A008AD077E7}|\uC561\uC158\\\uC561\uC158.csproj|c:\\users\\yang4916\\desktop\\y\\unity\\likelion\\\uC561\uC158\\\uC561\uC158\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A83B0D6B-92CC-4246-A071-2A008AD077E7}|\uC561\uC158\\\uC561\uC158.csproj|solutionrelative:\uC561\uC158\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\\uC561\uC158\\\uC561\uC158\\Program.cs",
+              "RelativeDocumentMoniker": "\uC561\uC158\\Program.cs",
+              "ToolTip": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\\uC561\uC158\\\uC561\uC158\\Program.cs",
+              "RelativeToolTip": "\uC561\uC158\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvycAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T01:05:37.058Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
