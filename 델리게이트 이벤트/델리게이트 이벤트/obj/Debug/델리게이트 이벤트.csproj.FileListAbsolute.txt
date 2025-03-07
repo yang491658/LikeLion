@@ -1,0 +1,7 @@
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\델리게이트 이벤트\델리게이트 이벤트\bin\Debug\델리게이트 이벤트.exe.config
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\델리게이트 이벤트\델리게이트 이벤트\bin\Debug\델리게이트 이벤트.exe
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\델리게이트 이벤트\델리게이트 이벤트\bin\Debug\델리게이트 이벤트.pdb
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\델리게이트 이벤트\델리게이트 이벤트\obj\Debug\델리게이트 이벤트.csproj.AssemblyReference.cache
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\델리게이트 이벤트\델리게이트 이벤트\obj\Debug\델리게이트 이벤트.csproj.CoreCompileInputs.cache
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\델리게이트 이벤트\델리게이트 이벤트\obj\Debug\델리게이트 이벤트.exe
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\델리게이트 이벤트\델리게이트 이벤트\obj\Debug\델리게이트 이벤트.pdb
