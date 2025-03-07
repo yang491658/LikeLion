@@ -19,47 +19,47 @@ namespace study11
         //// 프로그램 종료 전까지 유지됨
         //int instan = 200;
 
-        // 1단계 기본형
-        static void Loading()
-        {
-            Console.WriteLine("로딩 화면");
+        //// 1단계 기본형
+        //static void Loading()
+        //{
+        //    Console.WriteLine("로딩 화면");
 
-            Console.WriteLine("로딩중.");
-            Thread.Sleep(1000);
-            Console.WriteLine("로딩중..");
-            Thread.Sleep(1000);
-            Console.WriteLine("로딩중...");
-            Thread.Sleep(1000);
-        }
+        //    Console.WriteLine("로딩중.");
+        //    Thread.Sleep(1000);
+        //    Console.WriteLine("로딩중..");
+        //    Thread.Sleep(1000);
+        //    Console.WriteLine("로딩중...");
+        //    Thread.Sleep(1000);
+        //}
 
-        // 2단계 입력
-        static void AttackFuntion(int _Attack)
-        {
-            Console.WriteLine("공격력 : " + _Attack);
-        }
+        //// 2단계 입력
+        //static void AttackFuntion(int _Attack)
+        //{
+        //    Console.WriteLine("공격력 : " + _Attack);
+        //}
 
-        // 3단계 출력
-        static int BaseAttack()
-        {
-            int attack = 10;
-            return attack;
-        }
+        //// 3단계 출력
+        //static int BaseAttack()
+        //{
+        //    int attack = 10;
+        //    return attack;
+        //}
 
-        // 예시
-        static int Add(int num1, int num2)
-        {
-            return num1 + num2;
-        }
+        //// 예시
+        //static int Add(int num1, int num2)
+        //{
+        //    return num1 + num2;
+        //}
 
         static void Main(string[] args)
         {
-            // 사용가능
+            //// 사용가능
             //count++;
             //Console.WriteLine(count);
-            // 사용 불가능 (에러)
+            //// 사용 불가능 (에러)
             //Console.WriteLine(instan);
 
-            // 1단계 기본형
+            //// 1단계 기본형
             //Loading(); // 함수 호출, 반복해서 여러번 사용 가능
             //Console.WriteLine("게임이 시작됩니다.");
             //Console.ReadLine();

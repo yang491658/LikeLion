@@ -16,9 +16,9 @@ namespace study10
             //num[0] = 10;
             //num[1] = 20;
             //num[2] = 30;
-            //Console.WriteLine(num[0]);
-            //Console.WriteLine(num[1]);
-            //Console.WriteLine(num[2]);
+            //Console.WriteLine(num[0]); // 출력 결과 : 10
+            //Console.WriteLine(num[1]); // 출력 결과 : 20
+            //Console.WriteLine(num[2]); // 출력 결과 : 30
             //for (int i = 0; i < 3; i++)
             //{
             //    Console.WriteLine(num[i]);
@@ -129,10 +129,10 @@ namespace study10
             //    Console.WriteLine();
             //}
 
-            //// var 키워드 사용
-            //Console.WriteLine("var 키워드 사용");
-            //var numbers = new[] { 1, 2, 3, 4, 5 };
-            //Console.WriteLine($"배열 타입 : {numbers.GetType()}");
+            // var 키워드 사용
+            Console.WriteLine("var 키워드 사용");
+            var numbers = new[] { 1, 2, 3, 4, 5 };
+            Console.WriteLine($"배열 타입 : {numbers.GetType()}");
         }
     }
 }

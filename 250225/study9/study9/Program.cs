@@ -42,14 +42,14 @@ namespace study9
             //int att = default, def = default;
             //switch (input)
             //{
-            //    case 1: 
+            //    case 1:
             //        job = "검사";
-            //        att = 100; 
+            //        att = 100;
             //        def = 90;
             //        break;
-            //    case 2: 
+            //    case 2:
             //        job = "마법사";
-            //        att = 110; 
+            //        att = 110;
             //        def = 80;
             //        break;
             //    case 3:
