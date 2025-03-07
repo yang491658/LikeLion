@@ -11,29 +11,29 @@ namespace study9
     {
         static void Main(string[] args)
         {
-            // 조건문 switch
-            int day = 3;
-            switch (day)
-            {
-                case 1:
-                    Console.WriteLine("월요일");
-                    break;
-                case 2:
-                    Console.WriteLine("화요일");
-                    break;
-                case 3:
-                    Console.WriteLine("수요일");
-                    break;
-                case 4:
-                    Console.WriteLine("목요일");
-                    break;
-                case 5:
-                    Console.WriteLine("금요일");
-                    break;
-                default:
-                    Console.WriteLine("주말");
-                    break;
-            } // 결과 출력 : 수요일
+            //// 조건문 switch
+            //int day = 3;
+            //switch (day)
+            //{
+            //    case 1:
+            //        Console.WriteLine("월요일");
+            //        break;
+            //    case 2:
+            //        Console.WriteLine("화요일");
+            //        break;
+            //    case 3:
+            //        Console.WriteLine("수요일");
+            //        break;
+            //    case 4:
+            //        Console.WriteLine("목요일");
+            //        break;
+            //    case 5:
+            //        Console.WriteLine("금요일");
+            //        break;
+            //    default:
+            //        Console.WriteLine("주말");
+            //        break;
+            //} // 결과 출력 : 수요일
 
             //// 예시 : 캐릭턴 선택
             //Console.Write("캐릭터를 선택해주세요. (1. 검사  2. 마법사  3. 도적) : ");
