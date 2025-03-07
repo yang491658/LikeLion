@@ -1,0 +1,7 @@
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\TextRPG2\TextRPG2\bin\Debug\TextRPG2.exe.config
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\TextRPG2\TextRPG2\bin\Debug\TextRPG2.exe
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\TextRPG2\TextRPG2\bin\Debug\TextRPG2.pdb
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\TextRPG2\TextRPG2\obj\Debug\TextRPG2.csproj.AssemblyReference.cache
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\TextRPG2\TextRPG2\obj\Debug\TextRPG2.csproj.CoreCompileInputs.cache
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\TextRPG2\TextRPG2\obj\Debug\TextRPG2.exe
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\TextRPG2\TextRPG2\obj\Debug\TextRPG2.pdb

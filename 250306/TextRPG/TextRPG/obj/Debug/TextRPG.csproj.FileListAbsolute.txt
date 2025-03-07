@@ -5,3 +5,10 @@ C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\TextRPG\TextRPG\obj\Debug\TextRPG.csp
 C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\TextRPG\TextRPG\obj\Debug\TextRPG.csproj.CoreCompileInputs.cache
 C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\TextRPG\TextRPG\obj\Debug\TextRPG.exe
 C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\TextRPG\TextRPG\obj\Debug\TextRPG.pdb
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\250306\TextRPG\TextRPG\bin\Debug\TextRPG.exe.config
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\250306\TextRPG\TextRPG\bin\Debug\TextRPG.exe
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\250306\TextRPG\TextRPG\bin\Debug\TextRPG.pdb
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\250306\TextRPG\TextRPG\obj\Debug\TextRPG.csproj.AssemblyReference.cache
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\250306\TextRPG\TextRPG\obj\Debug\TextRPG.csproj.CoreCompileInputs.cache
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\250306\TextRPG\TextRPG\obj\Debug\TextRPG.exe
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\250306\TextRPG\TextRPG\obj\Debug\TextRPG.pdb

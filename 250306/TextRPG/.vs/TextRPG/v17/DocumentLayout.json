@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\250306\\TextRPG\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{11BE865C-BE48-42A0-9A61-24951666E75E}|TextRPG\\TextRPG.csproj|C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\250306\\TextRPG\\textrpg\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{11BE865C-BE48-42A0-9A61-24951666E75E}|TextRPG\\TextRPG.csproj|c:\\users\\yang4916\\desktop\\y\\unity\\likelion\\250306\\textrpg\\textrpg\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11BE865C-BE48-42A0-9A61-24951666E75E}|TextRPG\\TextRPG.csproj|solutionrelative:textrpg\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{11BE865C-BE48-42A0-9A61-24951666E75E}|TextRPG\\TextRPG.csproj|C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\250306\\TextRPG\\textrpg\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11BE865C-BE48-42A0-9A61-24951666E75E}|TextRPG\\TextRPG.csproj|solutionrelative:textrpg\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11BE865C-BE48-42A0-9A61-24951666E75E}|TextRPG\\TextRPG.csproj|C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\250306\\TextRPG\\textrpg\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11BE865C-BE48-42A0-9A61-24951666E75E}|TextRPG\\TextRPG.csproj|solutionrelative:textrpg\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11BE865C-BE48-42A0-9A61-24951666E75E}|TextRPG\\TextRPG.csproj|C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\250306\\TextRPG\\textrpg\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11BE865C-BE48-42A0-9A61-24951666E75E}|TextRPG\\TextRPG.csproj|solutionrelative:textrpg\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{11BE865C-BE48-42A0-9A61-24951666E75E}|TextRPG\\TextRPG.csproj|C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\250306\\TextRPG\\textrpg\\maingame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,14 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{11BE865C-BE48-42A0-9A61-24951666E75E}|TextRPG\\TextRPG.csproj|C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\250306\\TextRPG\\textrpg\\info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11BE865C-BE48-42A0-9A61-24951666E75E}|TextRPG\\TextRPG.csproj|solutionrelative:textrpg\\info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{11BE865C-BE48-42A0-9A61-24951666E75E}|TextRPG\\TextRPG.csproj|c:\\users\\yang4916\\desktop\\y\\unity\\likelion\\250306\\textrpg\\textrpg\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11BE865C-BE48-42A0-9A61-24951666E75E}|TextRPG\\TextRPG.csproj|solutionrelative:textrpg\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{11BE865C-BE48-42A0-9A61-24951666E75E}|TextRPG\\TextRPG.csproj|C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\250306\\TextRPG\\textrpg\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11BE865C-BE48-42A0-9A61-24951666E75E}|TextRPG\\TextRPG.csproj|solutionrelative:textrpg\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +38,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "MainGame.cs",
               "DocumentMoniker": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\250306\\TextRPG\\TextRPG\\MainGame.cs",
               "RelativeDocumentMoniker": "TextRPG\\MainGame.cs",
@@ -46,31 +46,30 @@
               "RelativeToolTip": "TextRPG\\MainGame.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T04:32:12.901Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T04:32:12.901Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\250306\\TextRPG\\TextRPG\\Player.cs",
               "RelativeDocumentMoniker": "TextRPG\\Player.cs",
               "ToolTip": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\250306\\TextRPG\\TextRPG\\Player.cs",
               "RelativeToolTip": "TextRPG\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAABUAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T04:13:05.285Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Monster.cs",
               "DocumentMoniker": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\250306\\TextRPG\\TextRPG\\Monster.cs",
               "RelativeDocumentMoniker": "TextRPG\\Monster.cs",
               "ToolTip": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\250306\\TextRPG\\TextRPG\\Monster.cs",
               "RelativeToolTip": "TextRPG\\Monster.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvx8AAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAADwvx8AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T05:08:12.126Z",
               "EditorCaption": ""
@@ -83,7 +82,7 @@
               "RelativeDocumentMoniker": "TextRPG\\Field.cs",
               "ToolTip": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\250306\\TextRPG\\TextRPG\\Field.cs",
               "RelativeToolTip": "TextRPG\\Field.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAF0AAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAF0AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T05:02:41.89Z",
               "EditorCaption": ""
@@ -96,14 +95,14 @@
               "RelativeDocumentMoniker": "TextRPG\\Program.cs",
               "ToolTip": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\250306\\TextRPG\\TextRPG\\Program.cs",
               "RelativeToolTip": "TextRPG\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T04:05:20.822Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Info.cs",
               "DocumentMoniker": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\250306\\TextRPG\\TextRPG\\Info.cs",
               "RelativeDocumentMoniker": "TextRPG\\Info.cs",
@@ -111,8 +110,7 @@
               "RelativeToolTip": "TextRPG\\Info.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvw8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T04:10:53.089Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T04:10:53.089Z"
             }
           ]
         }
