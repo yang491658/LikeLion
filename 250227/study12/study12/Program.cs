@@ -39,7 +39,7 @@ namespace study12
         {
             //PrintHello(); // 출력
 
-            //PrintMessage("반갑습니다. ");
+            //PrintMessage("반갑습니다.");
 
             //// 로컬 변수
             //int num = GetNumber();
@@ -80,7 +80,7 @@ namespace study12
 
         // 6. 함수 오버로딩(Overloading)
         /// <summary>
-        ///  두 수를 곱하는 함수
+        /// 두 수를 곱하는 함수
         /// </summary>
         /// <param name="a">int, double 오버로딩</param>
         /// <param name="b">int, double 오버로딩</param>

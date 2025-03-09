@@ -10,7 +10,7 @@ namespace study16
     {
         // 열거형 : Enumeration , enum
         // 숫자 값에 이름을 부여하는 자료형
-        // 가독석을 높이고, 의미 있는 값으로 표현 가능
+        // 가독성을 높이고, 의미 있는 값으로 표현 가능
         // 기본적으로 첫 번째 값은 0부터 시작하며 1씩 증가
 
         // 1. 기본적인 enum 사용법
@@ -36,7 +36,7 @@ namespace study16
 
         static void Main(string[] args)
         {
-            //// Math 클래스 사용 : 수학적 계산
+            ////// Math 클래스 사용 : 수학적 계산
             //Console.WriteLine($"Pi : {Math.PI}");
             //Console.WriteLine($"Square root of 25 : {Math.Sqrt(25)}");
             //Console.WriteLine($"Power (2^3) : {Math.Pow(2, 3)}");

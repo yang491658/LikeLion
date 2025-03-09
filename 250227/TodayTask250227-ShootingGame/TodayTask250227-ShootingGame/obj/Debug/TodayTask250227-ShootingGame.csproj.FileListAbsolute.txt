@@ -5,3 +5,10 @@ C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\TodayTask250227-ShootingGame\TodayTas
 C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\TodayTask250227-ShootingGame\TodayTask250227-ShootingGame\obj\Debug\TodayTask250227-ShootingGame.csproj.CoreCompileInputs.cache
 C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\TodayTask250227-ShootingGame\TodayTask250227-ShootingGame\obj\Debug\TodayTask250227-ShootingGame.exe
 C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\TodayTask250227-ShootingGame\TodayTask250227-ShootingGame\obj\Debug\TodayTask250227-ShootingGame.pdb
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\250227\TodayTask250227-ShootingGame\TodayTask250227-ShootingGame\bin\Debug\TodayTask250227-ShootingGame.exe.config
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\250227\TodayTask250227-ShootingGame\TodayTask250227-ShootingGame\bin\Debug\TodayTask250227-ShootingGame.exe
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\250227\TodayTask250227-ShootingGame\TodayTask250227-ShootingGame\bin\Debug\TodayTask250227-ShootingGame.pdb
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\250227\TodayTask250227-ShootingGame\TodayTask250227-ShootingGame\obj\Debug\TodayTask250227-ShootingGame.csproj.AssemblyReference.cache
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\250227\TodayTask250227-ShootingGame\TodayTask250227-ShootingGame\obj\Debug\TodayTask250227-ShootingGame.csproj.CoreCompileInputs.cache
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\250227\TodayTask250227-ShootingGame\TodayTask250227-ShootingGame\obj\Debug\TodayTask250227-ShootingGame.exe
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\250227\TodayTask250227-ShootingGame\TodayTask250227-ShootingGame\obj\Debug\TodayTask250227-ShootingGame.pdb

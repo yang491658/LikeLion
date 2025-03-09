@@ -10,323 +10,404 @@ namespace ShootingGame2
     // 미사일 클래스
     public class Bullet
     {
-        //public int x;
-        //public int y;
-        //public bool fire;
-
-        // 리팩토링
-        public int X { get; set; }
-        public int Y { get; set; }
-        public bool IsFired { get; set; } = false;
+        public int x;
+        public int y;
+        public bool fire;
     }
 
     // 플레이어 클래스
-    public class Player
+public class Player
+{
+    [DllImport("msvcrt.dll")]
+    static extern int _getch(); // C언어 함수 가져옴
+
+    // 플레이어 변수
+    public int playerX;
+    public int playerY;
+    public Bullet[] playerBullet = new Bullet[20];
+    public Bullet[] playerBullet2 = new Bullet[20];
+    public Bullet[] playerBullet3 = new Bullet[20];
+    public int Score = 100;
+    public Item item = new Item();
+    public int itemCount = 0;
+
+    // 생성자
+    public Player()
     {
-        [DllImport("msvcrt.dll")]
-        static extern int _getch(); // C언어 함수 가져옴
+        // 플레이어 좌표 초기화
+        playerX = 0;
+        playerY = 12;
 
-        // 플레이어 변수
-        //public int playerX;
-        //public int playerY;
-        //public Bullet[] playerBullet = new Bullet[20];
-        //public Bullet[] playerBullet2 = new Bullet[20];
-        //public Bullet[] playerBullet3 = new Bullet[20];
-        //public int Score = 100;
-        //public Item item = new Item();
-        //public int itemCount = 0;
-
-        // 리팩토링
-        public int X { get; private set; }
-        public int Y { get; private set; }
-        public List<Bullet> Bullets { get; } = new List<Bullet>();
-        public int Score { get; private set; } = 100;
-        public Item Item { get; } = new Item();
-        public int ItemCount { get; private set; } = 0;
-
-        // 생성자
-        public Player()
+        // 미사일 초기화
+        for (int i = 0; i < 20; i++)
         {
-            // 플레이어 좌표 초기화
-            //playerX = 0;
-            //playerY = 12;
+            playerBullet[i] = new Bullet();
+            playerBullet[i].x = 0;
+            playerBullet[i].y = 0;
+            playerBullet[i].fire = false;
 
-            // 미사일 초기화
-            //for (int i = 0; i < 20; i++)
-            //{
-            //    playerBullet[i] = new Bullet();
-            //    playerBullet[i].x = 0;
-            //    playerBullet[i].y = 0;
-            //    playerBullet[i].fire = false;
+            playerBullet2[i] = new Bullet();
+            playerBullet2[i].x = 0;
+            playerBullet2[i].y = 0;
+            playerBullet2[i].fire = false;
 
-            //    playerBullet2[i] = new Bullet();
-            //    playerBullet2[i].x = 0;
-            //    playerBullet2[i].y = 0;
-            //    playerBullet2[i].fire = false;
-
-            //    playerBullet3[i] = new Bullet();
-            //    playerBullet3[i].x = 0;
-            //    playerBullet3[i].y = 0;
-            //    playerBullet3[i].fire = false;
-            //}
-
-            // 리팩토링
-            X = 0;
-            Y = 12;
-            for (int i = 0; i < 20; i++) Bullets.Add(new Bullet());
+            playerBullet3[i] = new Bullet();
+            playerBullet3[i].x = 0;
+            playerBullet3[i].y = 0;
+            playerBullet3[i].fire = false;
         }
+    }
 
-        public void GameMain()
+    public void GameMain()
+    {
+        KeyControl(); // 키를 입력하는 부분
+        PlayerDraw(); // 플레이어 그리기
+        UIscore(); // UI점수
+
+        // 아이템 그리기
+        if (item.ItemLife)
         {
-            KeyControl(); // 키를 입력하는 부분
-            PlayerDraw(); // 플레이어 그리기
-            UIscore(); // UI점수
+            item.ItemMove();
+            item.ItemDraw();
+            CrashItem();
+        }
+    }
 
-            // 아이템 그리기
-            if (Item.ItemLife)
+    // 키 입력
+    public void KeyControl()
+    {
+        int pressKey; // 정수형 변수 선언 -> 키 값 입력
+
+        if (Console.KeyAvailable) // 키가 눌렸을때
+        {
+            pressKey = _getch(); // 아스키 값 : 입력한 키를 아스키 코드로 받음
+
+            if (pressKey == 224 || pressKey == 0) // 방향키 또는 확장 키
             {
-                Item.ItemMove();
-                Item.ItemDraw();
-                CrashItem();
+                pressKey = _getch(); // 실제 키 값 읽기
             }
-        }
 
-        // 키 입력
-        public void KeyControl()
-        {
-            int pressKey; // 정수형 변수 선언 -> 키 값 입력
-
-            if (Console.KeyAvailable) // 키가 눌렸을때
+            switch (pressKey)
             {
-                pressKey = _getch(); // 아스키 값 : 입력한 키를 아스키 코드로 받음
+                case 72: // 위쪽 방향키 아스키 코드
+                    playerY--;
+                    if (playerY < 1) playerY = 1;
+                    break;
+                case 75: // 왼쪽 방향키
+                    playerX--;
+                    if (playerX < 0) playerX = 0;
+                    break;
+                case 77: // 오른쪽 방향키
+                    playerX++;
+                    if (playerX > 75) playerX = 75;
+                    break;
+                case 80: // 아래쪽 방향키
+                    playerY++;
+                    if (playerY > 22) playerY = 22;
+                    break;
+                case 32: // 스페이스바
+                            // 미사일 발사
+                    for (int i = 0; i < 20; i++)
+                    {
+                        // 미사일 false = 발사 가능
+                        if (playerBullet[i].fire == false)
+                        {
+                            // 미사일 true = 발사 중
+                            playerBullet[i].fire = true;
 
-                if (pressKey == 224 || pressKey == 0) // 방향키 또는 확장 키
-                {
-                    pressKey = _getch(); // 실제 키 값 읽기
-                }
+                            // 플레이어 앞에서 미사일 쏘기
+                            playerBullet[i].x = playerX + 5;
+                            playerBullet[i].y = playerY;
 
-                switch (pressKey)
-                {
-                    //case 72: // 위쪽 방향키 아스키 코드
-                    //    playerY--;
-                    //    if (playerY < 1) playerY = 1;
-                    //    break;
-                    //case 75: // 왼쪽 방향키
-                    //    playerX--;
-                    //    if (playerX < 0) playerX = 0;
-                    //    break;
-                    //case 77: // 오른쪽 방향키
-                    //    playerX++;
-                    //    if (playerX > 75) playerX = 75;
-                    //    break;
-                    //case 80: // 아래쪽 방향키
-                    //    playerY++;
-                    //    if (playerY > 22) playerY = 22;
-                    //    break;
-                    //case 32: // 스페이스바
-                    //    // 미사일 발사
-                    //    for (int i = 0; i < 20; i++)
-                    //    {
-                    //        // 미사일 false = 발사 가능
-                    //        if (playerBullet[i].fire == false)
-                    //        {
-                    //            // 미사일 true = 발사 중
-                    //            playerBullet[i].fire = true;
+                            break; // 1발씩 발사
+                        }
+                    }
+                    for (int i = 0; i < 20; i++)
+                    {
+                        // 미사일 false = 발사 가능
+                        if (playerBullet2[i].fire == false)
+                        {
+                            // 미사일 true = 발사 중
+                            playerBullet2[i].fire = true;
 
-                    //            // 플레이어 앞에서 미사일 쏘기
-                    //            playerBullet[i].x = playerX + 5;
-                    //            playerBullet[i].y = playerY;
+                            // 플레이어 앞에서 미사일 쏘기
+                            playerBullet2[i].x = playerX + 5;
+                            playerBullet2[i].y = playerY + 1;
 
-                    //            break; // 1발씩 발사
-                    //        }
-                    //    }
-                    //    break;
-                    case 72: Y = Math.Max(1, Y - 1); break;
-                    case 75: X = Math.Max(0, X - 1); break;
-                    case 77: X = Math.Min(75, X + 1); break;
-                    case 80: Y = Math.Min(22, Y + 1); break;
-                    case 32:
-                        Bullets.Add(new Bullet { X = X + 5, Y = Y + 1, IsFired = true });
-                        if (ItemCount >= 1) Bullets.Add(new Bullet { X = X + 5, Y = Y, IsFired = true });
-                        if (ItemCount >= 2) Bullets.Add(new Bullet { X = X + 5, Y = Y + 2, IsFired = true });
-                        break;
-                }
-            }
-        }
+                            break; // 1발씩 발사
+                        }
+                    }
+                    for (int i = 0; i < 20; i++)
+                    {
+                        // 미사일 false = 발사 가능
+                        if (playerBullet3[i].fire == false)
+                        {
+                            // 미사일 true = 발사 중
+                            playerBullet3[i].fire = true;
 
-        // 플레이어 그리기
-        public void PlayerDraw()
-        {
-            // 문자열 배열로 플레이어 그리기
-            string[] playerShape = new string[]
-            {
-                "->",
-                ">>>",
-                "->"
-            };
+                            // 플레이어 앞에서 미사일 쏘기
+                            playerBullet3[i].x = playerX + 5;
+                            playerBullet3[i].y = playerY - 1;
 
-            for (int i = 0; i < playerShape.Length; i++)
-            {
-                Console.SetCursorPosition(X, Y + i - 1); // 콘솔 좌표 설정
-                Console.WriteLine(playerShape[i]); // 문자열 배열 출력
-            }
-        }
-
-        // 미사일 그리기
-        public void BulletDraw()
-        {
-            // 미사일 형태
-            string bulletSymbol = "->";
-
-            //for (int i = 0; i < 20; i++)
-            //{
-            //    // 미사일 true = 미사일이 살아있는 상태
-            //    if (playerBullet[i].fire == true)
-            //    {
-            //        // 좌표설정 -> 중간 위치를 위한 보정을 위해 x-1
-            //        Console.SetCursorPosition(playerBullet[i].x, playerBullet[i].y);
-
-            //        Console.Write(bullet); // 미사일 출력
-
-            //        playerBullet[i].x++; // 미사일 발사 : 오른쪽으로 이동
-
-            //        // 가장 오른쪽에 도달 시 -> 미사일 false = 다시 준비 상태
-            //        if (playerBullet[i].x > 78)
-            //        {
-            //            playerBullet[i].fire = false;
-            //        }
-            //    }
-            //}
-
-            // 리팩토링
-            foreach (var bullet in Bullets)
-            {
-                if (bullet.IsFired)
-                {
-                    Console.SetCursorPosition(bullet.X - 1, bullet.Y - 1);
-                    Console.Write(bulletSymbol);
-                    bullet.X++;
-                    if (bullet.X > 78) bullet.IsFired = false;
-                }
-            }
-        }
-
-        // 충돌처리
-        public void ClashEnemyAndBullet(Enemy enemy)
-        {
-            //for (int i = 0; i < 20; i++)
-            //{
-            //    // 발사중인 미사일
-            //    if (playerBullet[i].fire == true)
-            //    {
-            //        // 미사일과 적의 y값이 같을 떄
-            //        if (playerBullet[i].y == enemy.enemyY)
-            //        {
-            //            // 충돌
-            //            if (playerBullet[i].x >= enemy.enemyX - 1
-            //                && playerBullet[i].x <= enemy.enemyX + 1)
-            //            {
-            //                // 아이템 생성
-            //                item.ItemLife = true;
-            //                item.itemX = enemy.enemyX;
-            //                item.itemY = enemy.enemyY;
-
-            //                Random rand = new Random();
-            //                enemy.enemyX = 75;
-            //                enemy.enemyY = rand.Next(2, 22);
-
-            //                playerBullet[i].fire = false; // 미사일도 준비 상태
-
-            //                Score += 100; // 스코어 상승
-            //            }
-            //        }
-            //    }
-            //}
-
-            // 리팩토링
-            foreach (var bullet in Bullets)
-            {
-                if (bullet.IsFired
-                    && bullet.Y - 1 == enemy.Y
-                    && bullet.X >= (enemy.X - 1)
-                    && bullet.X <= (enemy.X + 1))
-                {
-                    Item.ItemLife = true;
-                    Item.X = enemy.X;
-                    Item.Y = enemy.Y;
-
-                    Random rand = new Random();
-                    enemy.X = 75;
-                    enemy.Y = rand.Next(2, 22);
-
-                    bullet.IsFired = false;
-                    Score += 100;
-                }
-            }
-        }
-
-        public void UIscore()
-        {
-            Console.SetCursorPosition(63, 0);
-            Console.Write("┏━━━━━━━━━━━━━━┓");
-            Console.SetCursorPosition(63, 1);
-            Console.Write("┃ Score : " + Score + "  ┃");
-            Console.SetCursorPosition(63, 2);
-            Console.Write("┗━━━━━━━━━━━━━━┛");
-        }
-
-        // 아이템 충돌 시 미사일 수 증가
-        public void CrashItem()
-        {
-            //if (playerY >= item.itemY - 1 && playerY <= item.itemY + 1)
-            //{
-            //    if (playerX >= item.itemX - 2 && playerX <= item.itemX + 2)
-            //    {
-            //        item.ItemLife = false;
-
-            //        if (itemCount < 3) itemCount++;
-
-            //        //총알 초기화
-            //        for (int i = 0; i < 20; i++)
-            //        {
-            //            playerBullet[i] = new Bullet();
-            //            playerBullet[i].x = 0;
-            //            playerBullet[i].y = 0;
-            //            playerBullet[i].fire = false;
-            //        }
-            //    }
-            //}
-
-            if (Y >= Item.Y - 1 && Y <= Item.Y + 1
-                && X >= Item.X - 2 && X <= Item.X + 2)
-            {
-                Item.ItemLife = false;
-                ItemCount = Math.Min(3, ItemCount + 1);
+                            break; // 1발씩 발사
+                        }
+                    }
+                    break;
             }
         }
     }
+
+    // 플레이어 그리기
+    public void PlayerDraw()
+    {
+        // 문자열 배열로 플레이어 그리기
+        string[] playerShape = new string[]
+        {
+        "->",
+        ">>>",
+            "->"
+        };
+
+        for (int i = 0; i < playerShape.Length; i++)
+        {
+            Console.SetCursorPosition(playerX, playerY + i - 1); // 콘솔 좌표 설정
+            Console.WriteLine(playerShape[i]); // 문자열 배열 출력
+        }
+    }
+
+    // 미사일 그리기
+    public void BulletDraw()
+    {
+        // 미사일 형태
+        string bulletSymbol = "->";
+
+        for (int i = 0; i < 20; i++)
+        {
+            // 미사일 true = 미사일이 살아있는 상태
+            if (playerBullet[i].fire == true)
+            {
+                // 좌표설정 -> 중간 위치를 위한 보정을 위해 x-1
+                Console.SetCursorPosition(playerBullet[i].x, playerBullet[i].y);
+
+                Console.Write(bulletSymbol); // 미사일 출력
+
+                playerBullet[i].x++; // 미사일 발사 : 오른쪽으로 이동
+
+                // 가장 오른쪽에 도달 시 -> 미사일 false = 다시 준비 상태
+                if (playerBullet[i].x > 78)
+                {
+                    playerBullet[i].fire = false;
+                }
+            }
+        }
+    }
+
+    // 미사일 그리기 2
+    public void BulletDraw2()
+    {
+        // 미사일 형태
+        string bulletSymbol = "->";
+
+        for (int i = 0; i < 20; i++)
+        {
+            // 미사일 true = 미사일이 살아있는 상태
+            if (playerBullet2[i].fire == true)
+            {
+                // 좌표설정 -> 중간 위치를 위한 보정을 위해 x-1
+                Console.SetCursorPosition(playerBullet2[i].x, playerBullet2[i].y);
+
+                Console.Write(bulletSymbol); // 미사일 출력
+
+                playerBullet2[i].x++; // 미사일 발사 : 오른쪽으로 이동
+
+                // 가장 오른쪽에 도달 시 -> 미사일 false = 다시 준비 상태
+                if (playerBullet2[i].x > 78)
+                {
+                    playerBullet2[i].fire = false;
+                }
+            }
+        }
+    }
+
+    // 미사일 그리기 3
+    public void BulletDraw3()
+    {
+        // 미사일 형태
+        string bulletSymbol = "->";
+
+        for (int i = 0; i < 20; i++)
+        {
+            // 미사일 true = 미사일이 살아있는 상태
+            if (playerBullet3[i].fire == true)
+            {
+                // 좌표설정 -> 중간 위치를 위한 보정을 위해 x-1
+                Console.SetCursorPosition(playerBullet3[i].x, playerBullet3[i].y);
+
+                Console.Write(bulletSymbol); // 미사일 출력
+
+                playerBullet3[i].x++; // 미사일 발사 : 오른쪽으로 이동
+
+                // 가장 오른쪽에 도달 시 -> 미사일 false = 다시 준비 상태
+                if (playerBullet3[i].x > 78)
+                {
+                    playerBullet3[i].fire = false;
+                }
+            }
+        }
+    }
+
+    // 충돌처리
+    public void ClashEnemyAndBullet(Enemy enemy)
+    {
+        for (int i = 0; i < 20; i++)
+        {
+            // 발사중인 미사일
+            if (playerBullet[i].fire == true)
+            {
+                // 미사일과 적의 y값이 같을 떄
+                if (playerBullet[i].y == enemy.enemyY)
+                {
+                    // 충돌
+                    if (playerBullet[i].x >= enemy.enemyX - 1
+                        && playerBullet[i].x <= enemy.enemyX + 1)
+                    {
+                        // 아이템 생성
+                        item.ItemLife = true;
+                        item.itemX = enemy.enemyX;
+                        item.itemY = enemy.enemyY;
+
+                        Random rand = new Random();
+                        enemy.enemyX = 75;
+                        enemy.enemyY = rand.Next(2, 22);
+
+                        playerBullet[i].fire = false; // 미사일도 준비 상태
+
+                        Score += 100; // 스코어 상승
+                    }
+                }
+            }
+        }
+
+        for (int i = 0; i < 20; i++)
+        {
+            // 발사중인 미사일
+            if (playerBullet2[i].fire == true)
+            {
+                // 미사일과 적의 y값이 같을 떄
+                if (playerBullet2[i].y == enemy.enemyY)
+                {
+                    // 충돌
+                    if (playerBullet2[i].x >= enemy.enemyX - 1
+                        && playerBullet2[i].x <= enemy.enemyX + 1)
+                    {
+                        // 아이템 생성
+                        item.ItemLife = true;
+                        item.itemX = enemy.enemyX;
+                        item.itemY = enemy.enemyY;
+
+                        Random rand = new Random();
+                        enemy.enemyX = 75;
+                        enemy.enemyY = rand.Next(2, 22);
+
+                        playerBullet2[i].fire = false; // 미사일도 준비 상태
+
+                        Score += 100; // 스코어 상승
+                    }
+                }
+            }
+        }
+
+        for (int i = 0; i < 20; i++)
+        {
+            // 발사중인 미사일
+            if (playerBullet3[i].fire == true)
+            {
+                // 미사일과 적의 y값이 같을 떄
+                if (playerBullet3[i].y == enemy.enemyY)
+                {
+                    // 충돌
+                    if (playerBullet3[i].x >= enemy.enemyX - 1
+                        && playerBullet3[i].x <= enemy.enemyX + 1)
+                    {
+                        // 아이템 생성
+                        item.ItemLife = true;
+                        item.itemX = enemy.enemyX;
+                        item.itemY = enemy.enemyY;
+
+                        Random rand = new Random();
+                        enemy.enemyX = 75;
+                        enemy.enemyY = rand.Next(2, 22);
+
+                        playerBullet3[i].fire = false; // 미사일도 준비 상태
+
+                        Score += 100; // 스코어 상승
+                    }
+                }
+            }
+        }
+    }
+
+    public void UIscore()
+    {
+        Console.SetCursorPosition(63, 0);
+        Console.Write("┏━━━━━━━━━━━━━━┓");
+        Console.SetCursorPosition(63, 1);
+        Console.Write("┃ Score : " + Score + "  ┃");
+        Console.SetCursorPosition(63, 2);
+        Console.Write("┗━━━━━━━━━━━━━━┛");
+    }
+
+    // 아이템 충돌 시 미사일 수 증가
+    public void CrashItem()
+    {
+        if (playerY >= item.itemY - 1 && playerY <= item.itemY + 1)
+        {
+            if (playerX >= item.itemX - 2 && playerX <= item.itemX + 2)
+            {
+                item.ItemLife = false;
+
+                if (itemCount < 3) itemCount++;
+
+                //총알 초기화
+                for (int i = 0; i < 20; i++)
+                {
+                    playerBullet[i] = new Bullet();
+                    playerBullet[i].x = 0;
+                    playerBullet[i].y = 0;
+                    playerBullet[i].fire = false;
+
+                    playerBullet2[i] = new Bullet();
+                    playerBullet2[i].x = 0;
+                    playerBullet2[i].y = 0;
+                    playerBullet2[i].fire = false;
+
+                    playerBullet3[i] = new Bullet();
+                    playerBullet3[i].x = 0;
+                    playerBullet3[i].y = 0;
+                    playerBullet3[i].fire = false;
+                }
+            }
+        }
+    }
+}
 
     // 적 클래스
     public class Enemy
     {
-        //public int enemyX;
-        //public int enemyY;
-
-        // 리팩토링
-        public int X { get; set; }
-        public int Y { get; set; }
+        public int enemyX;
+        public int enemyY;
 
         // 적 좌표 초기화
         public Enemy()
         {
-            X = 75;
-            Y = 12;
+            enemyX = 75;
+            enemyY = 12;
         }
 
         public void EnemyDraw()
         {
             string enemyShape = "<-0->"; // 적을 문자열로 표현
-            Console.SetCursorPosition(X, Y); // 좌표 설정
+            Console.SetCursorPosition(enemyX, enemyY); // 좌표 설정
             Console.Write(enemyShape);
         }
 
@@ -334,13 +415,13 @@ namespace ShootingGame2
         {
             Random rand = new Random();
 
-            X--; // 왼쪽으로 이동
+            enemyX--; // 왼쪽으로 이동
 
             // 가장 왼쪽 도달 시, 새로운 적 생성
-            if (X < 2)
+            if (enemyX < 2)
             {
-                X = 75;
-                Y = rand.Next(2, 22);
+                enemyX = 75;
+                enemyY = rand.Next(2, 22);
             }
         }
     }
@@ -350,18 +431,14 @@ namespace ShootingGame2
     {
         public string ItemName;
         public string ItemShape;
-        //public int itemX = 0;
-        //public int itemY = 0;
-        //public bool ItemLife = false;
-
-        public int X { get; set; }
-        public int Y { get; set; }
-        public bool ItemLife { get; set; } = false;
+        public int itemX = 0;
+        public int itemY = 0;
+        public bool ItemLife = false;
 
         // 아이템 그리기
         public void ItemDraw()
         {
-            Console.SetCursorPosition(X, Y);
+            Console.SetCursorPosition(itemX, itemY);
             ItemShape = "Item★";
             Console.Write(ItemShape);
         }
@@ -369,8 +446,8 @@ namespace ShootingGame2
         // 아이템 이동
         public void ItemMove()
         {
-            X--;
-            if (X <= 1 || Y <= 1) ItemLife = false;
+            itemX--;
+            if (itemX <= 1 || itemY <= 1) ItemLife = false;
         }
     }
 
@@ -402,21 +479,21 @@ namespace ShootingGame2
                     player.GameMain();
 
                     // 미사일
-                    //if (player.itemCount == 0)
-                    //{
-                    player.BulletDraw();
-                    //}
-                    //else if (player.itemCount == 1)
-                    //{
-                    //    player.BulletDraw();
-                    //    player.BulletDraw2();
-                    //}
-                    //else
-                    //{
-                    //    player.BulletDraw();
-                    //    player.BulletDraw2();
-                    //    player.BulletDraw3();
-                    //}
+                    if (player.itemCount == 0)
+                    {
+                        player.BulletDraw();
+                    }
+                    else if (player.itemCount == 1)
+                    {
+                        player.BulletDraw();
+                        player.BulletDraw2();
+                    }
+                    else
+                    {
+                        player.BulletDraw();
+                        player.BulletDraw2();
+                        player.BulletDraw3();
+                    }
 
                     // 적
                     enemy.EnemyMove(); // 이동

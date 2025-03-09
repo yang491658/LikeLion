@@ -5,3 +5,10 @@ C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\TodayTask250227-Inventory\TodayTask25
 C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\TodayTask250227-Inventory\TodayTask250227-Inventory\obj\Debug\TodayTask250227-Inventory.csproj.CoreCompileInputs.cache
 C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\TodayTask250227-Inventory\TodayTask250227-Inventory\obj\Debug\TodayTask250227-Inventory.exe
 C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\TodayTask250227-Inventory\TodayTask250227-Inventory\obj\Debug\TodayTask250227-Inventory.pdb
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\250227\TodayTask250227-Inventory\TodayTask250227-Inventory\bin\Debug\TodayTask250227-Inventory.exe.config
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\250227\TodayTask250227-Inventory\TodayTask250227-Inventory\bin\Debug\TodayTask250227-Inventory.exe
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\250227\TodayTask250227-Inventory\TodayTask250227-Inventory\bin\Debug\TodayTask250227-Inventory.pdb
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\250227\TodayTask250227-Inventory\TodayTask250227-Inventory\obj\Debug\TodayTask250227-Inventory.csproj.AssemblyReference.cache
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\250227\TodayTask250227-Inventory\TodayTask250227-Inventory\obj\Debug\TodayTask250227-Inventory.csproj.CoreCompileInputs.cache
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\250227\TodayTask250227-Inventory\TodayTask250227-Inventory\obj\Debug\TodayTask250227-Inventory.exe
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\250227\TodayTask250227-Inventory\TodayTask250227-Inventory\obj\Debug\TodayTask250227-Inventory.pdb

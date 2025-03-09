@@ -5,3 +5,10 @@ C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\Inventory\Inventory\bin\Debug\Invento
 C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\Inventory\Inventory\bin\Debug\Inventory.pdb
 C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\Inventory\Inventory\obj\Debug\Inventory.exe
 C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\Inventory\Inventory\obj\Debug\Inventory.pdb
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\250227\Inventory\Inventory\bin\Debug\Inventory.exe.config
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\250227\Inventory\Inventory\bin\Debug\Inventory.exe
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\250227\Inventory\Inventory\bin\Debug\Inventory.pdb
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\250227\Inventory\Inventory\obj\Debug\Inventory.csproj.AssemblyReference.cache
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\250227\Inventory\Inventory\obj\Debug\Inventory.csproj.CoreCompileInputs.cache
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\250227\Inventory\Inventory\obj\Debug\Inventory.exe
+C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\250227\Inventory\Inventory\obj\Debug\Inventory.pdb

@@ -93,7 +93,7 @@ namespace Inventory
 
         static void Main(string[] args)
         {
-            // 테스트 : 아이템 추가
+            // 아이템 추가
             AddItem("포션", 5);
             AddItem("칼", 1);
             AddItem("포션", 3); // 포션 개수 추가
@@ -104,12 +104,12 @@ namespace Inventory
             RemoveItem("포션", 5);
             ShowInventory();
 
-            // 테스트 : 없는 아이템 제거
+            // 아이템 제거
             Console.WriteLine("방패 1개 제거 시도");
             RemoveItem("방패", 1);
             ShowInventory();
 
-            // 테스트 : 모든 포션 제거
+            // 모든 포션 제거
             Console.WriteLine("포션 6개 사용 (초과 사용 테스트)");
             RemoveItem("포션", 6);
             ShowInventory();
