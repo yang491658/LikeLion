@@ -11,8 +11,8 @@ namespace study23
     {
         static void Main(string[] args)
         {
-            // 값 형식과 참조 형식
-            // 값 형식은 스택에 저장되고, 참조 형식은 힙에 저장
+            //// 값 형식과 참조 형식
+            //// 값 형식은 스택에 저장되고, 참조 형식은 힙에 저장
             //int valueType = 10;
             //object referenceType = valueType;
             //valueType = 20;
@@ -54,7 +54,7 @@ namespace study23
             //Console.WriteLine(message);
             //Console.WriteLine($"Length of name : {name.Length}"); // 문자열 길이
             //Console.WriteLine($"To Upper : {name.ToUpper()}"); // 대문자 변환
-            //Console.WriteLine($"Substring : {name.Substring(1)}"); // 부분 문자열
+            //Console.WriteLine($"Substring : {name.Substring(2,2)}"); // 부분 문자열
 
             //// string 다양한 메서드
             //string text = "C# is awesome!";
@@ -84,59 +84,57 @@ namespace study23
             //sw.Stop();
             //Console.WriteLine($"StringBuilder : {sw.ElapsedMilliseconds}ms");
 
-            //// 예외 처리하기 try catch
-            //// 예외는 프로그램 실행 중 발생하는 오류
-            //// 예외 처리를 하면 프로그램이 중단되지 않고 계속 실행
-            //try
-            //{
-            //    int[] number = { 1, 2, 3 };
-            //    Console.WriteLine(number[5]); // 오류 발생
-            //}
-            //catch (IndexOutOfRangeException ex)
-            //{
-            //    Console.WriteLine($"Error : {ex.Message}");
-            //}
+            // 예외 처리하기 try catch
+            // 예외는 프로그램 실행 중 발생하는 오류
+            // 예외 처리를 하면 프로그램이 중단되지 않고 계속 실행
+            try
+            {
+                int[] number = { 1, 2, 3 };
+                Console.WriteLine(number[5]); // 오류 발생
+            }
+            catch (IndexOutOfRangeException ex)
+            {
+                Console.WriteLine($"Error : {ex.Message}");
+            }
 
-            //// 예외 발생 여부와 상관없이 항상 실행 finally
-            //try
-            //{
-            //    int number = int.Parse("Not A Number");
-            //}
-            //catch (FormatException ex)
-            //{
-            //    Console.WriteLine($"Format Error : {ex.Message}");
-            //}
-            //finally
-            //{
-            //    Console.WriteLine("항상 실행됩니다.");
-            //}
+            // 예외 발생 여부와 상관없이 항상 실행 finally
+            try
+            {
+                int number = int.Parse("Not A Number");
+            }
+            catch (FormatException ex)
+            {
+                Console.WriteLine($"Format Error : {ex.Message}");
+            }
+            finally
+            {
+                Console.WriteLine("항상 실행됩니다.");
+            }
 
-            //// Exception 클래스
-            //// 모든 예외의 기본 클래스
-            //try
-            //{
-            //    int number = int.Parse("abd");
-            //}
-            //catch(Exception ex)
-            //{
-            //    Console.WriteLine($"General Error : {ex.Message}");
-            //}
+            // Exception 클래스
+            // 모든 예외의 기본 클래스
+            try
+            {
+                int number = int.Parse("abd");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"General Error : {ex.Message}");
+            }
 
-            //// throw 구문으로 직접 예외 발생
-            //try
-            //{
-            //    int age = -5;
-            //    if (age < 0)
-            //    {
-            //        throw new ArgumentException("Age cannot be negative");
-            //    }
-            //}
-            //catch (Exception ex)
-            //{
-            //    Console.WriteLine($"Exception : {ex.Message}");
-            //}
-
-            // 
+            // throw 구문으로 직접 예외 발생
+            try
+            {
+                int age = -5;
+                if (age < 0)
+                {
+                    throw new ArgumentException("Age cannot be negative");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Exception : {ex.Message}");
+            }
         }
     }
 }
