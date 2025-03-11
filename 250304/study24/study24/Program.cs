@@ -27,8 +27,8 @@ namespace study24
             //    Console.WriteLine(name);
             //}
 
-            // 컬렉션 기능
-            // 추가
+            //// 컬렉션 기능
+            //// 추가
             //List<int> list = new List<int>();
             //list.Add(1);
             //list.Add(2);
@@ -62,9 +62,12 @@ namespace study24
             //stack.Push(1);
             //stack.Push(2);
             //stack.Push(3);
-            //// 접근 : 가장 마지막 입력 -> 가장 먼저 출력
+            //// 접근 및 제거 : 가장 마지막 입력 -> 가장 먼저 출력
             //while (stack.Count > 0)
-            //    Console.WriteLine(stack.Pop());
+            //{
+            //    Console.WriteLine(stack.Peek()); // 접근
+            //    Console.WriteLine(stack.Pop()); // 제거
+            //}
 
             //// Queue : First In First Out
             //Queue queue = new Queue();
@@ -72,20 +75,23 @@ namespace study24
             //queue.Enqueue(1);
             //queue.Enqueue(2);
             //queue.Enqueue(3);
-            //// 접근 : 가장 먼저 입력 -> 가장 먼저 출력
+            //// 접근 및 제거 : 가장 먼저 입력 -> 가장 먼저 출력
             //while (queue.Count > 0)
-            //    Console.WriteLine(queue.Dequeue());
+            //{
+            //    Console.WriteLine(queue.Peek()); // 접근
+            //    Console.WriteLine(queue.Dequeue()); // 제거
+            //}
 
-            //// 예시 : 조작키 입력
-            //Queue queue = new Queue();
-            //queue.Enqueue("→");
-            //queue.Enqueue("↓");
-            //queue.Enqueue("↘");
-            //queue.Enqueue("→");
-            //queue.Enqueue("주먹");
-            //while (queue.Count > 0)
-            //    Console.WriteLine(queue.Dequeue());
-            //Console.WriteLine(queue.Count);
+            ////// 예시 : 조작키 입력
+            ////Queue queue = new Queue();
+            ////queue.Enqueue("→");
+            ////queue.Enqueue("↓");
+            ////queue.Enqueue("↘");
+            ////queue.Enqueue("→");
+            ////queue.Enqueue("주먹");
+            ////while (queue.Count > 0)
+            ////    Console.WriteLine(queue.Dequeue());
+            ////Console.WriteLine(queue.Count);
 
             //// ArrayList
             //ArrayList arrayList = new ArrayList();

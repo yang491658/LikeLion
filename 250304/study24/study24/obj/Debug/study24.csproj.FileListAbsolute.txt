@@ -5,3 +5,10 @@ C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\study24\study24\obj\Debug\study24.csp
 C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\study24\study24\obj\Debug\study24.csproj.CoreCompileInputs.cache
 C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\study24\study24\obj\Debug\study24.exe
 C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\study24\study24\obj\Debug\study24.pdb
+C:\Users\yang4916\Desktop\Y\LikeLion\C#Basic\250304\study24\study24\bin\Debug\study24.exe.config
+C:\Users\yang4916\Desktop\Y\LikeLion\C#Basic\250304\study24\study24\bin\Debug\study24.exe
+C:\Users\yang4916\Desktop\Y\LikeLion\C#Basic\250304\study24\study24\bin\Debug\study24.pdb
+C:\Users\yang4916\Desktop\Y\LikeLion\C#Basic\250304\study24\study24\obj\Debug\study24.csproj.AssemblyReference.cache
+C:\Users\yang4916\Desktop\Y\LikeLion\C#Basic\250304\study24\study24\obj\Debug\study24.csproj.CoreCompileInputs.cache
+C:\Users\yang4916\Desktop\Y\LikeLion\C#Basic\250304\study24\study24\obj\Debug\study24.exe
+C:\Users\yang4916\Desktop\Y\LikeLion\C#Basic\250304\study24\study24\obj\Debug\study24.pdb

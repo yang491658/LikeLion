@@ -33,14 +33,9 @@ namespace study25
 
         static void Main(string[] args)
         {
-            //// 커스텀 컬렉션
-            //var collection = new SimpleCollection();
-            //foreach (var i in collection)
-            //    Console.WriteLine(i);
-
             //// 제네릭 클래스 <T> : 특정 타입에 종속되지 않는 범용 클래스
             //Cup<string> cupOfString = new Cup<string> { Content = "Coffee" };
-            //Cup<int> cupOfInt = new Cup<int> { Content = 42 };
+            //Cup<int> cupOfInt = new Cup<int>  { Content = 42 };
             //Console.WriteLine($"cupOfString: {cupOfString.Content}");
             //Console.WriteLine($"cupOfInt: {cupOfInt.Content}");
 
@@ -65,8 +60,13 @@ namespace study25
             //// LINQ나 커스텀 컬렉션을 만들때 유요
             //ArrayList list = new ArrayList { "Apple", "Banana", "Cherry" };
             //IEnumerator enumerator = list.GetEnumerator(); // 열거자 가져오기
-            //while (enumerator.MoveNext())
+            //while (enumerator.MoveNext()) // 다음 요소가 있는지
             //    Console.WriteLine(enumerator.Current); // 현재 요소 출력
+
+            //// 커스텀 컬렉션
+            //var collection = new SimpleCollection();
+            //foreach (var i in collection)
+            //    Console.WriteLine(i);
 
             //// Dictionary<T, T> 제네릭 클래스
             //Dictionary<string, int> ages = new Dictionary<string, int>();
@@ -92,17 +92,17 @@ namespace study25
             //// 관련 연산자 
             //// ?? : null인 경우 대체값 제공
             //string str = null;
-            //Console.WriteLine(str ?? "DefaultValue"); // null -> 출력 :DefaultValue
+            //Console.WriteLine(str ?? "DefaultValue"); // null -> 출력 : DefaultValue
             //// 위와 동일한 로직
             //if (str != null) Console.WriteLine(str); else Console.WriteLine("DefaultValue");
             //// ?. : null 안전 접근
-            ////str = "Hello";
+            //str = "Hello";
             //Console.WriteLine(str?.Length); // null -> 출력 : (공백)
             //// 위와 동일한 로직
             //if (str != null) Console.WriteLine(str.Length);
 
             // Linq (Language Integrated Query)
-            // Linq를사용해 컬렉션을 쿼리할 수 있음 , 확장메서드 형태로 제공
+            // Linq를 사용해 컬렉션을 쿼리할 수 있음 , 확장메서드 형태로 제공
             int[] numbers = { 1, 2, 3, 4, 5 };
             var evenNumbers = numbers.Where(n => n % 2 == 0);
             foreach (var num in evenNumbers)

@@ -5,3 +5,10 @@ C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\study25\study25\obj\Debug\study25.csp
 C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\study25\study25\obj\Debug\study25.csproj.CoreCompileInputs.cache
 C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\study25\study25\obj\Debug\study25.exe
 C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\study25\study25\obj\Debug\study25.pdb
+C:\Users\yang4916\Desktop\Y\LikeLion\C#Basic\250304\study25\study25\bin\Debug\study25.exe.config
+C:\Users\yang4916\Desktop\Y\LikeLion\C#Basic\250304\study25\study25\bin\Debug\study25.exe
+C:\Users\yang4916\Desktop\Y\LikeLion\C#Basic\250304\study25\study25\bin\Debug\study25.pdb
+C:\Users\yang4916\Desktop\Y\LikeLion\C#Basic\250304\study25\study25\obj\Debug\study25.csproj.AssemblyReference.cache
+C:\Users\yang4916\Desktop\Y\LikeLion\C#Basic\250304\study25\study25\obj\Debug\study25.csproj.CoreCompileInputs.cache
+C:\Users\yang4916\Desktop\Y\LikeLion\C#Basic\250304\study25\study25\obj\Debug\study25.exe
+C:\Users\yang4916\Desktop\Y\LikeLion\C#Basic\250304\study25\study25\obj\Debug\study25.pdb
