@@ -5,3 +5,10 @@ C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\study26\study26\obj\Debug\study26.csp
 C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\study26\study26\obj\Debug\study26.csproj.CoreCompileInputs.cache
 C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\study26\study26\obj\Debug\study26.exe
 C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\study26\study26\obj\Debug\study26.pdb
+C:\Users\yang4916\Desktop\Y\LikeLion\C#Basic\250305\study26\study26\bin\Debug\study26.exe.config
+C:\Users\yang4916\Desktop\Y\LikeLion\C#Basic\250305\study26\study26\bin\Debug\study26.exe
+C:\Users\yang4916\Desktop\Y\LikeLion\C#Basic\250305\study26\study26\bin\Debug\study26.pdb
+C:\Users\yang4916\Desktop\Y\LikeLion\C#Basic\250305\study26\study26\obj\Debug\study26.csproj.AssemblyReference.cache
+C:\Users\yang4916\Desktop\Y\LikeLion\C#Basic\250305\study26\study26\obj\Debug\study26.csproj.CoreCompileInputs.cache
+C:\Users\yang4916\Desktop\Y\LikeLion\C#Basic\250305\study26\study26\obj\Debug\study26.exe
+C:\Users\yang4916\Desktop\Y\LikeLion\C#Basic\250305\study26\study26\obj\Debug\study26.pdb

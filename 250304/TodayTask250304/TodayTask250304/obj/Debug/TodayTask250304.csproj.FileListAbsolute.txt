@@ -5,3 +5,10 @@ C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\TodayTask250304\TodayTask250304\obj\D
 C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\TodayTask250304\TodayTask250304\obj\Debug\TodayTask250304.csproj.CoreCompileInputs.cache
 C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\TodayTask250304\TodayTask250304\obj\Debug\TodayTask250304.exe
 C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\TodayTask250304\TodayTask250304\obj\Debug\TodayTask250304.pdb
+C:\Users\yang4916\Desktop\Y\LikeLion\C#Basic\250304\TodayTask250304\TodayTask250304\bin\Debug\TodayTask250304.exe.config
+C:\Users\yang4916\Desktop\Y\LikeLion\C#Basic\250304\TodayTask250304\TodayTask250304\bin\Debug\TodayTask250304.exe
+C:\Users\yang4916\Desktop\Y\LikeLion\C#Basic\250304\TodayTask250304\TodayTask250304\bin\Debug\TodayTask250304.pdb
+C:\Users\yang4916\Desktop\Y\LikeLion\C#Basic\250304\TodayTask250304\TodayTask250304\obj\Debug\TodayTask250304.csproj.AssemblyReference.cache
+C:\Users\yang4916\Desktop\Y\LikeLion\C#Basic\250304\TodayTask250304\TodayTask250304\obj\Debug\TodayTask250304.csproj.CoreCompileInputs.cache
+C:\Users\yang4916\Desktop\Y\LikeLion\C#Basic\250304\TodayTask250304\TodayTask250304\obj\Debug\TodayTask250304.exe
+C:\Users\yang4916\Desktop\Y\LikeLion\C#Basic\250304\TodayTask250304\TodayTask250304\obj\Debug\TodayTask250304.pdb

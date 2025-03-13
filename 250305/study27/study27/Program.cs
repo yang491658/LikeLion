@@ -31,7 +31,7 @@ namespace study27
         static void Main(string[] args)
         {
             Dog myDog = new Dog();
-            myDog.Name = "바둑이"; // 부모 클래스의 속성 사용
+            myDog.Name = "바둑"; // 부모 클래스의 속성 사용
             myDog.Eat();  // 부모 클래스의 메서드 호출 가능
             myDog.Bark(); // 자기 메서드 호출 가능 
         }

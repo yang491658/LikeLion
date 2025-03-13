@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\TodayTask250304\\",
+  "WorkspaceRootPath": "C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250304\\TodayTask250304\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08FB6EA0-9456-4639-BC46-E032FE2892EB}|TodayTask250304\\TodayTask250304.csproj|c:\\users\\yang4916\\desktop\\y\\unity\\likelion\\todaytask250304\\todaytask250304\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{08FB6EA0-9456-4639-BC46-E032FE2892EB}|TodayTask250304\\TodayTask250304.csproj|c:\\users\\yang4916\\desktop\\y\\likelion\\c#basic\\250304\\todaytask250304\\todaytask250304\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08FB6EA0-9456-4639-BC46-E032FE2892EB}|TodayTask250304\\TodayTask250304.csproj|solutionrelative:todaytask250304\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,18 +20,14 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\TodayTask250304\\TodayTask250304\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250304\\TodayTask250304\\TodayTask250304\\Program.cs",
               "RelativeDocumentMoniker": "TodayTask250304\\Program.cs",
-              "ToolTip": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\TodayTask250304\\TodayTask250304\\Program.cs*",
-              "RelativeToolTip": "TodayTask250304\\Program.cs*",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAFgAAAAdAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250304\\TodayTask250304\\TodayTask250304\\Program.cs",
+              "RelativeToolTip": "TodayTask250304\\Program.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAFMAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-04T07:07:20.694Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

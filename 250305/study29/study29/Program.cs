@@ -37,9 +37,9 @@ namespace study29
             myAnimal.Name = "일반 동물";
             myAnimal.Speak(); // 부모 클래스의 기본 메서드 실행
 
-            Dog myDog = new Dog();
-            myDog.Name = "바둑이";
-            myDog.Speak(); // 오버라이딩된 메서드 실행
+            //Dog myDog = new Dog();
+            //myDog.Name = "바둑이";
+            //myDog.Speak(); // 오버라이딩된 메서드 실행
         }
     }
 }

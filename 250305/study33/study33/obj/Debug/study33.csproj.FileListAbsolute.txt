@@ -5,3 +5,10 @@ C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\study33\study33\obj\Debug\study33.csp
 C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\study33\study33\obj\Debug\study33.csproj.CoreCompileInputs.cache
 C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\study33\study33\obj\Debug\study33.exe
 C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\study33\study33\obj\Debug\study33.pdb
+C:\Users\yang4916\Desktop\Y\LikeLion\C#Basic\250305\study33\study33\bin\Debug\study33.exe.config
+C:\Users\yang4916\Desktop\Y\LikeLion\C#Basic\250305\study33\study33\bin\Debug\study33.exe
+C:\Users\yang4916\Desktop\Y\LikeLion\C#Basic\250305\study33\study33\bin\Debug\study33.pdb
+C:\Users\yang4916\Desktop\Y\LikeLion\C#Basic\250305\study33\study33\obj\Debug\study33.csproj.AssemblyReference.cache
+C:\Users\yang4916\Desktop\Y\LikeLion\C#Basic\250305\study33\study33\obj\Debug\study33.csproj.CoreCompileInputs.cache
+C:\Users\yang4916\Desktop\Y\LikeLion\C#Basic\250305\study33\study33\obj\Debug\study33.exe
+C:\Users\yang4916\Desktop\Y\LikeLion\C#Basic\250305\study33\study33\obj\Debug\study33.pdb

@@ -11,7 +11,7 @@ namespace study26
         static void Main(string[] args)
         {
             //// 데이터 정렬
-            //string[] names= { "Charlie","Alice","Bob"};
+            //string[] names = { "Charlie", "Alice", "Bob" };
             //var sortedNames = names.OrderBy(n => n);
             //foreach (var name in sortedNames)
             //{
@@ -116,20 +116,19 @@ namespace study26
             //}
             //Console.WriteLine(index >= 0 ? $"Found at index {index}" : "Not found");
 
-            // GROUP 알고리즘 : 그룹화
-            // 데이터를 특정 기준으로 그룹화하기
-            string[] fruits = { "apple", "banana", "blueberry", "cherry", "apricot" };
-            // LINQ의 GroupBy()를 사용하여 첫 글자를 기준으로 그룹화
-            var groups = fruits.GroupBy(f => f[0]);
-            foreach (var group in groups)
-            {
-                Console.WriteLine($"Key : {group.Key}");
-                foreach (var item in group)
-                {
-                    Console.WriteLine($" {item}");
-                }
-            }
-
+            //// GROUP 알고리즘 : 그룹화
+            //// 데이터를 특정 기준으로 그룹화하기
+            //string[] fruits = { "apple", "banana", "blueberry", "cherry", "apricot" };
+            //// LINQ의 GroupBy()를 사용하여 첫 글자를 기준으로 그룹화
+            //var groups = fruits.GroupBy(f => f[0]);
+            //foreach (var group in groups)
+            //{
+            //    Console.WriteLine($"Key : {group.Key}");
+            //    foreach (var item in group)
+            //    {
+            //        Console.WriteLine($" {item}");
+            //    }
+            //}
         }
     }
 }

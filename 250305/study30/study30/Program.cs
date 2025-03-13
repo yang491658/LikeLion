@@ -44,7 +44,7 @@ namespace study30
             Dog myDog = (Dog)myAnimal; // 다운캐스팅 (명시적 변환)
             myDog.Bark(); // 메서드 실행
 
-            // 안 되는 예
+            //// 안 되는 예
             //Animal myAnimal2 = new Animal();
             //Dog myDog2 = (Dog)myAnimal2;
 
