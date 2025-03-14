@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\\uB378\uB9AC\uAC8C\uC774\uD2B8 \uC774\uBCA4\uD2B8\\",
+  "WorkspaceRootPath": "C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250307\\\uB378\uB9AC\uAC8C\uC774\uD2B8 \uC774\uBCA4\uD2B8\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A539CB76-AE4A-4E47-B473-B9F12F636C7C}|\uB378\uB9AC\uAC8C\uC774\uD2B8 \uC774\uBCA4\uD2B8\\\uB378\uB9AC\uAC8C\uC774\uD2B8 \uC774\uBCA4\uD2B8.csproj|c:\\users\\yang4916\\desktop\\y\\unity\\likelion\\\uB378\uB9AC\uAC8C\uC774\uD2B8 \uC774\uBCA4\uD2B8\\\uB378\uB9AC\uAC8C\uC774\uD2B8 \uC774\uBCA4\uD2B8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A539CB76-AE4A-4E47-B473-B9F12F636C7C}|\uB378\uB9AC\uAC8C\uC774\uD2B8 \uC774\uBCA4\uD2B8\\\uB378\uB9AC\uAC8C\uC774\uD2B8 \uC774\uBCA4\uD2B8.csproj|c:\\users\\yang4916\\desktop\\y\\likelion\\c#basic\\250307\\\uB378\uB9AC\uAC8C\uC774\uD2B8 \uC774\uBCA4\uD2B8\\\uB378\uB9AC\uAC8C\uC774\uD2B8 \uC774\uBCA4\uD2B8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A539CB76-AE4A-4E47-B473-B9F12F636C7C}|\uB378\uB9AC\uAC8C\uC774\uD2B8 \uC774\uBCA4\uD2B8\\\uB378\uB9AC\uAC8C\uC774\uD2B8 \uC774\uBCA4\uD2B8.csproj|solutionrelative:\uB378\uB9AC\uAC8C\uC774\uD2B8 \uC774\uBCA4\uD2B8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\\uB378\uB9AC\uAC8C\uC774\uD2B8 \uC774\uBCA4\uD2B8\\\uB378\uB9AC\uAC8C\uC774\uD2B8 \uC774\uBCA4\uD2B8\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250307\\\uB378\uB9AC\uAC8C\uC774\uD2B8 \uC774\uBCA4\uD2B8\\\uB378\uB9AC\uAC8C\uC774\uD2B8 \uC774\uBCA4\uD2B8\\Program.cs",
               "RelativeDocumentMoniker": "\uB378\uB9AC\uAC8C\uC774\uD2B8 \uC774\uBCA4\uD2B8\\Program.cs",
-              "ToolTip": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\\uB378\uB9AC\uAC8C\uC774\uD2B8 \uC774\uBCA4\uD2B8\\\uB378\uB9AC\uAC8C\uC774\uD2B8 \uC774\uBCA4\uD2B8\\Program.cs",
+              "ToolTip": "C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250307\\\uB378\uB9AC\uAC8C\uC774\uD2B8 \uC774\uBCA4\uD2B8\\\uB378\uB9AC\uAC8C\uC774\uD2B8 \uC774\uBCA4\uD2B8\\Program.cs",
               "RelativeToolTip": "\uB378\uB9AC\uAC8C\uC774\uD2B8 \uC774\uBCA4\uD2B8\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAADwvzYAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-07T00:15:13.914Z",
               "EditorCaption": ""

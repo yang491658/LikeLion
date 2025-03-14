@@ -12,7 +12,7 @@ namespace 이벤트
         public string Name { get; private set; } // 캐릭터 이름
         public int Health { get; private set; } // 캐릭터 체력
 
-        // 이벤트 정의 : 캐릭턴가 데미지를 입었을때 발생
+        // 이벤트 정의 : 캐릭터가 데미지를 입었을때 발생
         // EventHandler는 C#에서 제공하는 기본 델리게이트 타입
         // 이벤트는 외부에서 직접 호출할수 없고 , += 와 -= 연산자로만 접근 가능
         public event EventHandler OnDamaged;
@@ -71,7 +71,7 @@ namespace 이벤트
             // 더 이상 이벤트가 발생시 메서드가 호출되지 않음
             hero.OnDamaged -= Hero_OnDamaged;
             Console.WriteLine("\n이벤트 구독 취소");
-            //이벤트 발생함수는 실행하지만 내용은 실행안함
+            // 이벤트 발생함수는 실행하지만 내용은 실행안함
             hero.TakeDamage(20);
         }
     }

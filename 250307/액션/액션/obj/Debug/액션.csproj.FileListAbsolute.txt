@@ -5,3 +5,10 @@ C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\액션\액션\obj\Debug\액션.csproj
 C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\액션\액션\obj\Debug\액션.csproj.CoreCompileInputs.cache
 C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\액션\액션\obj\Debug\액션.exe
 C:\Users\yang4916\Desktop\Y\UNITY\LikeLion\액션\액션\obj\Debug\액션.pdb
+C:\Users\yang4916\Desktop\Y\LikeLion\C#Basic\250307\액션\액션\bin\Debug\액션.exe.config
+C:\Users\yang4916\Desktop\Y\LikeLion\C#Basic\250307\액션\액션\bin\Debug\액션.exe
+C:\Users\yang4916\Desktop\Y\LikeLion\C#Basic\250307\액션\액션\bin\Debug\액션.pdb
+C:\Users\yang4916\Desktop\Y\LikeLion\C#Basic\250307\액션\액션\obj\Debug\액션.csproj.AssemblyReference.cache
+C:\Users\yang4916\Desktop\Y\LikeLion\C#Basic\250307\액션\액션\obj\Debug\액션.csproj.CoreCompileInputs.cache
+C:\Users\yang4916\Desktop\Y\LikeLion\C#Basic\250307\액션\액션\obj\Debug\액션.exe
+C:\Users\yang4916\Desktop\Y\LikeLion\C#Basic\250307\액션\액션\obj\Debug\액션.pdb

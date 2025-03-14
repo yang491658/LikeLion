@@ -26,7 +26,7 @@ namespace 액션
 
         static void Main(string[] args)
         {
-            // 액션은 매개변수가 없구 반환값이 없는 메서드를 참조
+            // 액션은 매개변수가 없고 반환값이 없는 메서드를 참조
             // 메서드 이름을 변수에 저장한다고 생각
             Action sayHello = SayHello;
             sayHello();

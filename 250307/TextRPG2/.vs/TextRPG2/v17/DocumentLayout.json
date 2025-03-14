@@ -1,29 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\TextRPG2\\",
+  "WorkspaceRootPath": "C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250307\\TextRPG2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C3515556-96DF-4DB5-8C27-AA49B665B403}|TextRPG2\\TextRPG2.csproj|c:\\users\\yang4916\\desktop\\y\\unity\\likelion\\textrpg2\\textrpg2\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3515556-96DF-4DB5-8C27-AA49B665B403}|TextRPG2\\TextRPG2.csproj|solutionrelative:textrpg2\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3515556-96DF-4DB5-8C27-AA49B665B403}|TextRPG2\\TextRPG2.csproj|c:\\users\\yang4916\\desktop\\y\\unity\\likelion\\textrpg2\\textrpg2\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3515556-96DF-4DB5-8C27-AA49B665B403}|TextRPG2\\TextRPG2.csproj|solutionrelative:textrpg2\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3515556-96DF-4DB5-8C27-AA49B665B403}|TextRPG2\\TextRPG2.csproj|c:\\users\\yang4916\\desktop\\y\\unity\\likelion\\textrpg2\\textrpg2\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C3515556-96DF-4DB5-8C27-AA49B665B403}|TextRPG2\\TextRPG2.csproj|solutionrelative:textrpg2\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3515556-96DF-4DB5-8C27-AA49B665B403}|TextRPG2\\TextRPG2.csproj|c:\\users\\yang4916\\desktop\\y\\unity\\likelion\\textrpg2\\textrpg2\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C3515556-96DF-4DB5-8C27-AA49B665B403}|TextRPG2\\TextRPG2.csproj|C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250307\\TextRPG2\\textrpg2\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3515556-96DF-4DB5-8C27-AA49B665B403}|TextRPG2\\TextRPG2.csproj|solutionrelative:textrpg2\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3515556-96DF-4DB5-8C27-AA49B665B403}|TextRPG2\\TextRPG2.csproj|c:\\users\\yang4916\\desktop\\y\\unity\\likelion\\textrpg2\\textrpg2\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C3515556-96DF-4DB5-8C27-AA49B665B403}|TextRPG2\\TextRPG2.csproj|C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250307\\TextRPG2\\textrpg2\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3515556-96DF-4DB5-8C27-AA49B665B403}|TextRPG2\\TextRPG2.csproj|solutionrelative:textrpg2\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C3515556-96DF-4DB5-8C27-AA49B665B403}|TextRPG2\\TextRPG2.csproj|c:\\users\\yang4916\\desktop\\y\\unity\\likelion\\textrpg2\\textrpg2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C3515556-96DF-4DB5-8C27-AA49B665B403}|TextRPG2\\TextRPG2.csproj|C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250307\\TextRPG2\\textrpg2\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3515556-96DF-4DB5-8C27-AA49B665B403}|TextRPG2\\TextRPG2.csproj|solutionrelative:textrpg2\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3515556-96DF-4DB5-8C27-AA49B665B403}|TextRPG2\\TextRPG2.csproj|C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250307\\TextRPG2\\textrpg2\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3515556-96DF-4DB5-8C27-AA49B665B403}|TextRPG2\\TextRPG2.csproj|solutionrelative:textrpg2\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3515556-96DF-4DB5-8C27-AA49B665B403}|TextRPG2\\TextRPG2.csproj|c:\\users\\yang4916\\desktop\\y\\likelion\\c#basic\\250307\\textrpg2\\textrpg2\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3515556-96DF-4DB5-8C27-AA49B665B403}|TextRPG2\\TextRPG2.csproj|solutionrelative:textrpg2\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3515556-96DF-4DB5-8C27-AA49B665B403}|TextRPG2\\TextRPG2.csproj|C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250307\\TextRPG2\\textrpg2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3515556-96DF-4DB5-8C27-AA49B665B403}|TextRPG2\\TextRPG2.csproj|solutionrelative:textrpg2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,30 +34,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Field.cs",
-              "DocumentMoniker": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\TextRPG2\\TextRPG2\\Field.cs",
+              "DocumentMoniker": "C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250307\\TextRPG2\\TextRPG2\\Field.cs",
               "RelativeDocumentMoniker": "TextRPG2\\Field.cs",
-              "ToolTip": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\TextRPG2\\TextRPG2\\Field.cs",
+              "ToolTip": "C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250307\\TextRPG2\\TextRPG2\\Field.cs",
               "RelativeToolTip": "TextRPG2\\Field.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAAAGcAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-07T05:23:37.441Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Game.cs",
-              "DocumentMoniker": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\TextRPG2\\TextRPG2\\Game.cs",
+              "DocumentMoniker": "C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250307\\TextRPG2\\TextRPG2\\Game.cs",
               "RelativeDocumentMoniker": "TextRPG2\\Game.cs",
-              "ToolTip": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\TextRPG2\\TextRPG2\\Game.cs",
+              "ToolTip": "C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250307\\TextRPG2\\TextRPG2\\Game.cs",
               "RelativeToolTip": "TextRPG2\\Game.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAEUAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-07T05:03:45.97Z",
               "EditorCaption": ""
@@ -66,37 +66,37 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Monster.cs",
-              "DocumentMoniker": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\TextRPG2\\TextRPG2\\Monster.cs",
+              "DocumentMoniker": "C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250307\\TextRPG2\\TextRPG2\\Monster.cs",
               "RelativeDocumentMoniker": "TextRPG2\\Monster.cs",
-              "ToolTip": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\TextRPG2\\TextRPG2\\Monster.cs",
+              "ToolTip": "C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250307\\TextRPG2\\TextRPG2\\Monster.cs",
               "RelativeToolTip": "TextRPG2\\Monster.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-07T05:03:18.345Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\TextRPG2\\TextRPG2\\Player.cs",
+              "DocumentMoniker": "C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250307\\TextRPG2\\TextRPG2\\Player.cs",
               "RelativeDocumentMoniker": "TextRPG2\\Player.cs",
-              "ToolTip": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\TextRPG2\\TextRPG2\\Player.cs",
+              "ToolTip": "C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250307\\TextRPG2\\TextRPG2\\Player.cs",
               "RelativeToolTip": "TextRPG2\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-07T05:03:14.339Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Unit.cs",
-              "DocumentMoniker": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\TextRPG2\\TextRPG2\\Unit.cs",
+              "DocumentMoniker": "C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250307\\TextRPG2\\TextRPG2\\Unit.cs",
               "RelativeDocumentMoniker": "TextRPG2\\Unit.cs",
-              "ToolTip": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\TextRPG2\\TextRPG2\\Unit.cs",
+              "ToolTip": "C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250307\\TextRPG2\\TextRPG2\\Unit.cs",
               "RelativeToolTip": "TextRPG2\\Unit.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-07T05:03:10.62Z",
               "EditorCaption": ""
@@ -105,11 +105,11 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\TextRPG2\\TextRPG2\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250307\\TextRPG2\\TextRPG2\\Program.cs",
               "RelativeDocumentMoniker": "TextRPG2\\Program.cs",
-              "ToolTip": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\TextRPG2\\TextRPG2\\Program.cs",
+              "ToolTip": "C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250307\\TextRPG2\\TextRPG2\\Program.cs",
               "RelativeToolTip": "TextRPG2\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvw8AAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-07T05:02:53.542Z",
               "EditorCaption": ""
