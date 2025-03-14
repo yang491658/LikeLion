@@ -45,9 +45,9 @@ namespace InterfaceExam2
             PaymentProcessor processor = new PaymentProcessor();
 
             Payment creditcard = new CreditCard();
-            Payment paypal = new PayPal();
-
             processor.Pay(creditcard);
+
+            Payment paypal = new PayPal();
             processor.Pay(paypal);
         }
     }

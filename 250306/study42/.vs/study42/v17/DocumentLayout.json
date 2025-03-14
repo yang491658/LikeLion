@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\study42\\",
+  "WorkspaceRootPath": "C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250306\\study42\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E04F7AF2-263F-434E-AB6B-1AE0500AF506}|study42\\study42.csproj|c:\\users\\yang4916\\desktop\\y\\unity\\likelion\\study42\\study42\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E04F7AF2-263F-434E-AB6B-1AE0500AF506}|study42\\study42.csproj|solutionrelative:study42\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E04F7AF2-263F-434E-AB6B-1AE0500AF506}|study42\\study42.csproj|c:\\users\\yang4916\\desktop\\y\\likelion\\c#basic\\250306\\study42\\study42\\warrior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E04F7AF2-263F-434E-AB6B-1AE0500AF506}|study42\\study42.csproj|solutionrelative:study42\\warrior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E04F7AF2-263F-434E-AB6B-1AE0500AF506}|study42\\study42.csproj|C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\study42\\study42\\gamecharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E04F7AF2-263F-434E-AB6B-1AE0500AF506}|study42\\study42.csproj|solutionrelative:study42\\gamecharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E04F7AF2-263F-434E-AB6B-1AE0500AF506}|study42\\study42.csproj|C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\study42\\study42\\mage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E04F7AF2-263F-434E-AB6B-1AE0500AF506}|study42\\study42.csproj|C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250306\\study42\\study42\\mage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E04F7AF2-263F-434E-AB6B-1AE0500AF506}|study42\\study42.csproj|solutionrelative:study42\\mage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E04F7AF2-263F-434E-AB6B-1AE0500AF506}|study42\\study42.csproj|C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\study42\\study42\\warrior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E04F7AF2-263F-434E-AB6B-1AE0500AF506}|study42\\study42.csproj|solutionrelative:study42\\warrior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E04F7AF2-263F-434E-AB6B-1AE0500AF506}|study42\\study42.csproj|C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250306\\study42\\study42\\gamecharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E04F7AF2-263F-434E-AB6B-1AE0500AF506}|study42\\study42.csproj|solutionrelative:study42\\gamecharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E04F7AF2-263F-434E-AB6B-1AE0500AF506}|study42\\study42.csproj|C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250306\\study42\\study42\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E04F7AF2-263F-434E-AB6B-1AE0500AF506}|study42\\study42.csproj|solutionrelative:study42\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Warrior.cs",
-              "DocumentMoniker": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\study42\\study42\\Warrior.cs",
+              "DocumentMoniker": "C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250306\\study42\\study42\\Warrior.cs",
               "RelativeDocumentMoniker": "study42\\Warrior.cs",
-              "ToolTip": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\study42\\study42\\Warrior.cs",
+              "ToolTip": "C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250306\\study42\\study42\\Warrior.cs",
               "RelativeToolTip": "study42\\Warrior.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvxoAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T02:41:53.78Z"
+              "WhenOpened": "2025-03-06T02:41:53.78Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Mage.cs",
-              "DocumentMoniker": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\study42\\study42\\Mage.cs",
+              "DocumentMoniker": "C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250306\\study42\\study42\\Mage.cs",
               "RelativeDocumentMoniker": "study42\\Mage.cs",
-              "ToolTip": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\study42\\study42\\Mage.cs",
+              "ToolTip": "C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250306\\study42\\study42\\Mage.cs",
               "RelativeToolTip": "study42\\Mage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvxEAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvxoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T02:34:31.399Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "GameCharacter.cs",
-              "DocumentMoniker": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\study42\\study42\\GameCharacter.cs",
+              "DocumentMoniker": "C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250306\\study42\\study42\\GameCharacter.cs",
               "RelativeDocumentMoniker": "study42\\GameCharacter.cs",
-              "ToolTip": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\study42\\study42\\GameCharacter.cs",
+              "ToolTip": "C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250306\\study42\\study42\\GameCharacter.cs",
               "RelativeToolTip": "study42\\GameCharacter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T02:24:47.556Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\study42\\study42\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250306\\study42\\study42\\Program.cs",
               "RelativeDocumentMoniker": "study42\\Program.cs",
-              "ToolTip": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\study42\\study42\\Program.cs",
+              "ToolTip": "C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250306\\study42\\study42\\Program.cs",
               "RelativeToolTip": "study42\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T02:17:30.704Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T02:17:30.704Z"
             }
           ]
         }

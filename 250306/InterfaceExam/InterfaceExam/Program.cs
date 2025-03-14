@@ -30,7 +30,7 @@ namespace InterfaceExam
         }
     }
 
-    //인터페이스를 활용한 공통메서드
+    // 인터페이스를 활용한 공통메서드
     // Train(Animal animal) 메서드는 Dog, Cat 모두를 받을 수 있음 -> 코드 재사용성 증가
     // 추가적인 Animal을 구현한 새로운 동물이 생기더라도 Train() 메서드는 변경할 필요 없음 -> 유지보수 용이
     class AnimalTrainer

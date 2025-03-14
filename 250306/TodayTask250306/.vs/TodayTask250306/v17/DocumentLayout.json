@@ -1,29 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\250306\\TodayTask250306\\",
+  "WorkspaceRootPath": "C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250306\\TodayTask250306\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9B66FD21-1788-4EA4-9C94-3DADCDC75B1A}|TodayTask250306\\TodayTask250306.csproj|c:\\users\\yang4916\\desktop\\y\\unity\\likelion\\250306\\todaytask250306\\todaytask250306\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B66FD21-1788-4EA4-9C94-3DADCDC75B1A}|TodayTask250306\\TodayTask250306.csproj|solutionrelative:todaytask250306\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B66FD21-1788-4EA4-9C94-3DADCDC75B1A}|TodayTask250306\\TodayTask250306.csproj|C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\250306\\TodayTask250306\\todaytask250306\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B66FD21-1788-4EA4-9C94-3DADCDC75B1A}|TodayTask250306\\TodayTask250306.csproj|solutionrelative:todaytask250306\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B66FD21-1788-4EA4-9C94-3DADCDC75B1A}|TodayTask250306\\TodayTask250306.csproj|C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\250306\\TodayTask250306\\todaytask250306\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B66FD21-1788-4EA4-9C94-3DADCDC75B1A}|TodayTask250306\\TodayTask250306.csproj|solutionrelative:todaytask250306\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B66FD21-1788-4EA4-9C94-3DADCDC75B1A}|TodayTask250306\\TodayTask250306.csproj|C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\250306\\TodayTask250306\\todaytask250306\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9B66FD21-1788-4EA4-9C94-3DADCDC75B1A}|TodayTask250306\\TodayTask250306.csproj|C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250306\\TodayTask250306\\todaytask250306\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B66FD21-1788-4EA4-9C94-3DADCDC75B1A}|TodayTask250306\\TodayTask250306.csproj|solutionrelative:todaytask250306\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B66FD21-1788-4EA4-9C94-3DADCDC75B1A}|TodayTask250306\\TodayTask250306.csproj|C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\250306\\TodayTask250306\\todaytask250306\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9B66FD21-1788-4EA4-9C94-3DADCDC75B1A}|TodayTask250306\\TodayTask250306.csproj|C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250306\\TodayTask250306\\todaytask250306\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B66FD21-1788-4EA4-9C94-3DADCDC75B1A}|TodayTask250306\\TodayTask250306.csproj|solutionrelative:todaytask250306\\unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B66FD21-1788-4EA4-9C94-3DADCDC75B1A}|TodayTask250306\\TodayTask250306.csproj|C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\250306\\TodayTask250306\\todaytask250306\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9B66FD21-1788-4EA4-9C94-3DADCDC75B1A}|TodayTask250306\\TodayTask250306.csproj|C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250306\\TodayTask250306\\todaytask250306\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B66FD21-1788-4EA4-9C94-3DADCDC75B1A}|TodayTask250306\\TodayTask250306.csproj|solutionrelative:todaytask250306\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B66FD21-1788-4EA4-9C94-3DADCDC75B1A}|TodayTask250306\\TodayTask250306.csproj|C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250306\\TodayTask250306\\todaytask250306\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B66FD21-1788-4EA4-9C94-3DADCDC75B1A}|TodayTask250306\\TodayTask250306.csproj|solutionrelative:todaytask250306\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B66FD21-1788-4EA4-9C94-3DADCDC75B1A}|TodayTask250306\\TodayTask250306.csproj|c:\\users\\yang4916\\desktop\\y\\likelion\\c#basic\\250306\\todaytask250306\\todaytask250306\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B66FD21-1788-4EA4-9C94-3DADCDC75B1A}|TodayTask250306\\TodayTask250306.csproj|solutionrelative:todaytask250306\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B66FD21-1788-4EA4-9C94-3DADCDC75B1A}|TodayTask250306\\TodayTask250306.csproj|C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250306\\TodayTask250306\\todaytask250306\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B66FD21-1788-4EA4-9C94-3DADCDC75B1A}|TodayTask250306\\TodayTask250306.csproj|solutionrelative:todaytask250306\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,77 +34,82 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\250306\\TodayTask250306\\TodayTask250306\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250306\\TodayTask250306\\TodayTask250306\\Program.cs",
               "RelativeDocumentMoniker": "TodayTask250306\\Program.cs",
-              "ToolTip": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\250306\\TodayTask250306\\TodayTask250306\\Program.cs",
+              "ToolTip": "C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250306\\TodayTask250306\\TodayTask250306\\Program.cs",
               "RelativeToolTip": "TodayTask250306\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvw4AAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T06:38:13.028Z"
+              "WhenOpened": "2025-03-06T06:38:13.028Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Game.cs",
-              "DocumentMoniker": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\250306\\TodayTask250306\\TodayTask250306\\Game.cs",
+              "DocumentMoniker": "C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250306\\TodayTask250306\\TodayTask250306\\Game.cs",
               "RelativeDocumentMoniker": "TodayTask250306\\Game.cs",
-              "ToolTip": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\250306\\TodayTask250306\\TodayTask250306\\Game.cs",
+              "ToolTip": "C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250306\\TodayTask250306\\TodayTask250306\\Game.cs",
               "RelativeToolTip": "TodayTask250306\\Game.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAADwvycAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T06:42:36.237Z"
+              "WhenOpened": "2025-03-06T06:42:36.237Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Unit.cs",
-              "DocumentMoniker": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\250306\\TodayTask250306\\TodayTask250306\\Unit.cs",
+              "DocumentMoniker": "C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250306\\TodayTask250306\\TodayTask250306\\Unit.cs",
               "RelativeDocumentMoniker": "TodayTask250306\\Unit.cs",
-              "ToolTip": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\250306\\TodayTask250306\\TodayTask250306\\Unit.cs",
+              "ToolTip": "C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250306\\TodayTask250306\\TodayTask250306\\Unit.cs",
               "RelativeToolTip": "TodayTask250306\\Unit.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T06:42:50.288Z"
+              "WhenOpened": "2025-03-06T06:42:50.288Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\250306\\TodayTask250306\\TodayTask250306\\Player.cs",
+              "DocumentMoniker": "C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250306\\TodayTask250306\\TodayTask250306\\Player.cs",
               "RelativeDocumentMoniker": "TodayTask250306\\Player.cs",
-              "ToolTip": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\250306\\TodayTask250306\\TodayTask250306\\Player.cs",
+              "ToolTip": "C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250306\\TodayTask250306\\TodayTask250306\\Player.cs",
               "RelativeToolTip": "TodayTask250306\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T06:42:40.832Z"
+              "WhenOpened": "2025-03-06T06:42:40.832Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Monster.cs",
-              "DocumentMoniker": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\250306\\TodayTask250306\\TodayTask250306\\Monster.cs",
+              "DocumentMoniker": "C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250306\\TodayTask250306\\TodayTask250306\\Monster.cs",
               "RelativeDocumentMoniker": "TodayTask250306\\Monster.cs",
-              "ToolTip": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\250306\\TodayTask250306\\TodayTask250306\\Monster.cs",
+              "ToolTip": "C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250306\\TodayTask250306\\TodayTask250306\\Monster.cs",
               "RelativeToolTip": "TodayTask250306\\Monster.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T06:42:47.055Z"
+              "WhenOpened": "2025-03-06T06:42:47.055Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Field.cs",
-              "DocumentMoniker": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\250306\\TodayTask250306\\TodayTask250306\\Field.cs",
+              "DocumentMoniker": "C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250306\\TodayTask250306\\TodayTask250306\\Field.cs",
               "RelativeDocumentMoniker": "TodayTask250306\\Field.cs",
-              "ToolTip": "C:\\Users\\yang4916\\Desktop\\Y\\UNITY\\LikeLion\\250306\\TodayTask250306\\TodayTask250306\\Field.cs",
+              "ToolTip": "C:\\Users\\yang4916\\Desktop\\Y\\LikeLion\\C#Basic\\250306\\TodayTask250306\\TodayTask250306\\Field.cs",
               "RelativeToolTip": "TodayTask250306\\Field.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAAAJ8AAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAAAKcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T06:43:05.41Z",
               "EditorCaption": ""

@@ -40,9 +40,9 @@ namespace study37
             Person p2 = new Person("Alice"); // 매개변수 1개인 생성자
             Person p3 = new Person("Bob", 20); // 매개변수 2개인 생성자
 
-            Console.WriteLine(p.Name+", "+p.Age);
-            Console.WriteLine(p2.Name+", "+p2.Age);
-            Console.WriteLine(p3.Name+", "+p3.Age);
+            Console.WriteLine(p.Name + ", " + p.Age);
+            Console.WriteLine(p2.Name + ", " + p2.Age);
+            Console.WriteLine(p3.Name + ", " + p3.Age);
         }
     }
 }
